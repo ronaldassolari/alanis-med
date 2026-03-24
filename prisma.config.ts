@@ -9,6 +9,8 @@ export default defineConfig({
     path: "prisma/migrations",
   },
   datasource: {
-    url: process.env["DATABASE_URL"],
+    // DIRECT_URL = conexão direta (sem pooler) para prisma migrate
+    // DATABASE_URL = pooled (pgBouncer) para o app em runtime
+    url: process.env["DIRECT_URL"] ?? process.env["DATABASE_URL"],
   },
 });
