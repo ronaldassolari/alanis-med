@@ -7,6 +7,8 @@ datasource db {
   provider = "postgresql"
 }
 
+// ─── AUTH (next-auth v5) ────────────────────────────────────────────────────
+
 model User {
   id            String    @id @default(cuid())
   email         String    @unique
@@ -22,13 +24,13 @@ model User {
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 
-  testes    Teste[]
-  progresso Progresso[]
-  notas     Nota[]
-  sessions  Session[]
-  accounts  Account[]
-  badges    UserBadge[]
-  metas     Meta[]
+  sessions   Session[]
+  accounts   Account[]
+  badges     UserBadge[]
+  metas      Meta[]
+  testes     Teste[]
+  notas      Nota[]
+  progresso  Progresso[]
 
   @@map("users")
 }
@@ -73,14 +75,16 @@ model VerificationToken {
   @@map("verification_tokens")
 }
 
+// ─── GAMIFICAÇÃO ─────────────────────────────────────────────────────────────
+
 model Badge {
-  id        String      @id @default(cuid())
-  nome      String
+  id       String @id @default(cuid())
+  nome     String
   descricao String
-  icone     String
-  cor       String      @default("#0066FF")
-  criterio  String
-  pontos    Int         @default(50)
+  icone    String
+  cor      String @default("#0066FF")
+  criterio String
+  pontos   Int    @default(50)
 
   usuarios UserBadge[]
 
@@ -88,10 +92,10 @@ model Badge {
 }
 
 model UserBadge {
-  id        String   @id @default(cuid())
-  userId    String
-  badgeId   String
-  ganhoEm   DateTime @default(now())
+  id      String   @id @default(cuid())
+  userId  String
+  badgeId String
+  ganhoEm DateTime @default(now())
 
   user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
   badge Badge @relation(fields: [badgeId], references: [id], onDelete: Cascade)
@@ -103,7 +107,7 @@ model UserBadge {
 model Meta {
   id        String   @id @default(cuid())
   userId    String
-  tipo      String   // diaria | semanal | mensal
+  tipo      String
   descricao String
   meta      Int
   atual     Int      @default(0)
@@ -114,6 +118,8 @@ model Meta {
 
   @@map("metas")
 }
+
+// ─── AULAS ──────────────────────────────────────────────────────────────────
 
 model Aula {
   id         String   @id @default(cuid())
@@ -137,86 +143,6 @@ model Aula {
   @@map("aulas")
 }
 
-model Prova {
-  id           String   @id @default(cuid())
-  nome         String
-  tipo         String   // ENARE | CAJURU | SIMULADO | IA | TEMATICA | SURPRESA
-  subtipo      String   @default("completa") // completa | resumida | tematica | surpresa
-  ano          Int?
-  disciplina   String?
-  tema         String?
-  descricao    String?
-  tempoPrevisto Int?    // minutos
-  dificuldade  String   @default("medio")
-  geradaPorIA  Boolean  @default(false)
-  ativo        Boolean  @default(true)
-  createdAt    DateTime @default(now())
-
-  questoes Questao[]
-  testes   Teste[]
-
-  @@map("provas")
-}
-
-model Questao {
-  id           String  @id @default(cuid())
-  provaId      String
-  enunciado    String
-  opcaoA       String
-  opcaoB       String
-  opcaoC       String
-  opcaoD       String
-  opcaoE       String?
-  gabarito     String
-  explicacao   String?
-  referencia   String?
-  disciplina   String?
-  tema         String?
-  dificuldade  String  @default("medio")
-  ordem        Int     @default(0)
-  geradaPorIA  Boolean @default(false)
-
-  prova Prova @relation(fields: [provaId], references: [id], onDelete: Cascade)
-
-  @@map("questoes")
-}
-
-model Teste {
-  id           String   @id @default(cuid())
-  userId       String
-  provaId      String?
-  tipo         String   @default("tematico")
-  respostas    String   @default("{}")
-  acertos      Int      @default(0)
-  total        Int      @default(0)
-  tempo        Int?
-  pontos       Int      @default(0)
-  completado   Boolean  @default(false)
-  analise      String?  // JSON com análise detalhada
-  createdAt    DateTime @default(now())
-
-  user  User   @relation(fields: [userId], references: [id], onDelete: Cascade)
-  prova Prova? @relation(fields: [provaId], references: [id])
-  nota  Nota?
-
-  @@map("testes")
-}
-
-model Nota {
-  id        String   @id @default(cuid())
-  userId    String
-  testeId   String   @unique
-  valor     Float
-  aprovado  Boolean
-  percentil Int?     // 0-100, comparação com outros
-  createdAt DateTime @default(now())
-
-  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
-  teste Teste @relation(fields: [testeId], references: [id], onDelete: Cascade)
-
-  @@map("notas")
-}
-
 model Progresso {
   id         String    @id @default(cuid())
   userId     String
@@ -232,4 +158,86 @@ model Progresso {
 
   @@unique([userId, aulaId])
   @@map("progresso")
+}
+
+// ─── QUESTÕES E PROVAS ───────────────────────────────────────────────────────
+
+model Prova {
+  id            String   @id @default(cuid())
+  nome          String
+  tipo          String
+  subtipo       String   @default("completa")
+  ano           Int?
+  disciplina    String?
+  tema          String?
+  descricao     String?
+  tempoPrevisto Int?
+  dificuldade   String   @default("medio")
+  geradaPorIA   Boolean  @default(false)
+  ativo         Boolean  @default(true)
+  createdAt     DateTime @default(now())
+
+  questoes Questao[]
+  testes   Teste[]
+
+  @@map("provas")
+}
+
+model Questao {
+  id          String  @id @default(cuid())
+  provaId     String
+  enunciado   String
+  opcaoA      String
+  opcaoB      String
+  opcaoC      String
+  opcaoD      String
+  opcaoE      String?
+  gabarito    String
+  explicacao  String?
+  referencia  String?
+  disciplina  String?
+  tema        String?
+  dificuldade String  @default("medio")
+  ordem       Int     @default(0)
+  geradaPorIA Boolean @default(false)
+
+  prova Prova @relation(fields: [provaId], references: [id], onDelete: Cascade)
+
+  @@map("questoes")
+}
+
+model Teste {
+  id         String   @id @default(cuid())
+  userId     String
+  provaId    String?
+  tipo       String   @default("tematico")
+  respostas  String   @default("{}")
+  acertos    Int      @default(0)
+  total      Int      @default(0)
+  tempo      Int?
+  pontos     Int      @default(0)
+  completado Boolean  @default(false)
+  analise    String?
+  createdAt  DateTime @default(now())
+
+  user  User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  prova Prova? @relation(fields: [provaId], references: [id], onDelete: SetNull)
+  nota  Nota?
+
+  @@map("testes")
+}
+
+model Nota {
+  id        String   @id @default(cuid())
+  userId    String
+  testeId   String   @unique
+  valor     Float
+  aprovado  Boolean
+  percentil Int?
+  createdAt DateTime @default(now())
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  teste Teste @relation(fields: [testeId], references: [id], onDelete: Cascade)
+
+  @@map("notas")
 }
