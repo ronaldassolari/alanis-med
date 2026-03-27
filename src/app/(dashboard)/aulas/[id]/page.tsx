@@ -5,7 +5,7 @@ import { revalidatePath } from "next/cache"
 import Link from "next/link"
 import { DisciplinaBadge, Badge } from "@/components/ui/badge"
 import { ProgressBar } from "@/components/ui/progress-bar"
-import { ArrowLeft, Clock, CheckCircle, BookOpen } from "lucide-react"
+import { ArrowLeft, Clock, CheckCircle, BookOpen, ExternalLink } from "lucide-react"
 
 interface AulaPageProps {
   params: Promise<{ id: string }>
@@ -116,19 +116,27 @@ export default async function AulaDetailPage({ params }: AulaPageProps) {
         </div>
       </div>
 
-      {/* Video embed */}
+      {/* Video link */}
       {aula.videoUrl && (
-        <div className="bg-black rounded-xl overflow-hidden mb-6 aspect-video">
-          {aula.videoUrl.includes("youtube") || aula.videoUrl.includes("youtu.be") ? (
-            <iframe
-              src={`https://www.youtube.com/embed/${getYouTubeId(aula.videoUrl)}`}
-              className="w-full h-full"
-              allowFullScreen
-              title={aula.titulo}
-            />
-          ) : (
-            <video src={aula.videoUrl} controls className="w-full h-full" />
-          )}
+        <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 mb-6">
+          <div className="flex items-center gap-2 mb-3">
+            <div className="w-10 h-10 rounded-lg bg-red-100 flex items-center justify-center">
+              <svg className="w-5 h-5 text-red-600" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </div>
+            <div>
+              <h3 className="font-semibold text-slate-700">Videoaula disponível</h3>
+              <p className="text-sm text-slate-500">Assista no YouTube</p>
+            </div>
+          </div>
+          <a
+            href={aula.videoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-medium transition-colors"
+          >
+            <ExternalLink className="w-4 h-4" />
+            Abrir no YouTube
+          </a>
         </div>
       )}
 
@@ -139,8 +147,21 @@ export default async function AulaDetailPage({ params }: AulaPageProps) {
             <BookOpen className="w-5 h-5 text-sky-600" />
             <h2 className="font-semibold text-slate-700">Conteúdo</h2>
           </div>
-          <div className="prose prose-slate max-w-none text-slate-600 leading-relaxed whitespace-pre-wrap">
-            {aula.conteudo}
+          <div className="max-w-none text-slate-600 leading-relaxed space-y-2">
+            {aula.conteudo.split("\n").map((line, i) => {
+              // Process bold markdown **text**
+              const parts = line.split(/\*\*(.*?)\*\*/)
+              const rendered = parts.map((part, j) =>
+                j % 2 === 1 ? <strong key={j} className="text-slate-800 font-semibold">{part}</strong> : part
+              )
+              // Render line with dash as list item
+              if (line.trim().startsWith("- ")) {
+                return <div key={i} className="flex gap-2 pl-2"><span className="text-sky-500">•</span><span>{rendered}</span></div>
+              }
+              // Empty line = spacer
+              if (line.trim() === "") return <div key={i} className="h-2" />
+              return <p key={i} className="leading-relaxed">{rendered}</p>
+            })}
           </div>
         </div>
       )}
