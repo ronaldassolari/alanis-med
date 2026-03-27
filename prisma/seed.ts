@@ -82,8 +82,8 @@ async function main() {
       descricao: 'Diagnóstico, estratificação de risco e tratamento. Metas pressóricas e farmacoterapia de primeira e segunda linha.',
       disciplina: 'Clínica Médica', tema: 'Cardiologia', tipo: 'video', nivel: 'basico',
       duracao: 45, ordem: 1, mes: 1, semana: 1,
-      videoUrl: 'https://www.youtube.com/watch?v=HAS_video',
-      conteudo: null, ativo: true,
+      videoUrl: null,
+      conteudo: `**Diagnóstico (PA ≥ 140/90 mmHg):** Confirmação em ≥ 2 ocasiões, 5 min repouso, sem deambulação prévia\n\n**Estratificação de Risco Cardiovascular:** Baixo, moderado, alto e muito alto conforme PA + fatores de risco (tabagismo, diabetes, dislipidemia, obesidade, histórico familiar)\n\n**Metas:** < 130/80 mmHg (geral) | < 140/90 (idosos ≥ 65 anos tolerando bem)\n\n**Farmacoterapia 1ª linha:** IECA, BRA, bloqueador de canal de cálcio, tiazídico. Associações: IECA + tiazídico ou bloqueador de cálcio\n\n**Monitorização:** MAPA 24h ou MRPA se controle inadequado`, ativo: true,
     },
     {
       titulo: 'Diabetes Mellitus Tipo 2',
@@ -99,7 +99,7 @@ async function main() {
       descricao: 'IAM com e sem supradesnivelamento de ST. Diagnóstico eletrocardiográfico, marcadores e tratamento de reperfusão.',
       disciplina: 'Clínica Médica', tema: 'Cardiologia', tipo: 'video', nivel: 'avancado',
       duracao: 70, ordem: 3, mes: 1, semana: 2,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**IAMCST:** Supradesnivelamento ST em derivações contíguas → reperfusão urgente (angioplastia primária < 120 min ou trombolíse < 30 min)\n\n**IAMSST:** Sem supradesnivelamento mas troponina elevada ou mudanças dinâmicas ST-T → estratificação de risco (GRACE)\n\n**Marcadores:** Troponina I/T (elevação 3-12h, pico 48h, normaliza 7-14d), CK-MB (mais específico para miocárdio)\n\n**Tratamento (DAPT + Anticoagulação):** AAS 300mg + Clopidogrel/Ticagrelor + HBPM + Nitrato + Betabloqueador\n\n**Angioplastia primária:** padrão-ouro em IAMCST com < 12h de sintomas`, ativo: true,
     },
     {
       titulo: 'Insuficiência Cardíaca',
@@ -115,28 +115,28 @@ async function main() {
       descricao: 'Epidemiologia, diagnóstico, estratificação de gravidade (CURB-65, PSI) e tratamento da PAC no adulto.',
       disciplina: 'Clínica Médica', tema: 'Pneumologia', tipo: 'video', nivel: 'intermediario',
       duracao: 50, ordem: 5, mes: 2, semana: 1,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Diagnóstico:** Tosse + sintomas sistêmicos + infiltrado pulmonar à ausculta/radiografia + critérios menores (febre, leucocitose, purulência)\n\n**CURB-65:** Confusão, Uréia > 7, Respiração > 30, PA sistólica < 90, idade ≥ 65 anos. 0-1 = baixo risco | 2 = moderado | ≥ 3 = alto (considerar internação)\n\n**Agentes:** Pneumococo, Haemophilus, Legionella. Em > 40 anos tabagista: incluir cobertura para anaeróbios\n\n**Tratamento:** Ambulatorial: Amoxicilina-clavulanato ou Fluorquinolona respiratória | Internado: Cefalosporina 3ª geração + Fluorquinolona ou Macrolídeo\n\n**Saturação O2 meta:** ≥ 90% (≥ 88% em DPOC)`, ativo: true,
     },
     {
       titulo: 'Doença Renal Crônica',
       descricao: 'Estadiamento pela TFG, causas principais, diagnóstico de complicações e tratamento conservador e renal substitutivo.',
       disciplina: 'Clínica Médica', tema: 'Nefrologia', tipo: 'texto', nivel: 'intermediario',
       duracao: 55, ordem: 6, mes: 2, semana: 1,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Estágios pela TFG (KDIGO):** Estágio 1 (TFG ≥ 90) e 2 (60-89) = normal; Estágio 3a (45-59) e 3b (30-44); Estágio 4 (15-29); Estágio 5 (< 15)\n\n**Causas principais:** Diabetes (> 35%), HAS, glomerulonefrite, rins policísticos, uropatia obstrutiva\n\n**Complicações:** Anemia (EPO deficiente), hipertensão, doença mineral óssea, dislipidemia, desnutrição proteica. Progressão para IRCT\n\n**Tratamento:** Controlar PA (< 130/80 em DRC), glicemia, proteinúria (IECA/BRA) | Terapia renal substitutiva se TFG < 15 (diálise ou transplante)\n\n**Monitorização:** TFG, creatinina, eletrólitos, albumina, fósforo, cálcio, PTH semestral`, ativo: true,
     },
     {
       titulo: 'Acidente Vascular Cerebral',
       descricao: 'AVC isquêmico e hemorrágico. Diagnóstico por imagem, janela terapêutica para trombólise e prevenção secundária.',
       disciplina: 'Clínica Médica', tema: 'Neurologia', tipo: 'video', nivel: 'avancado',
       duracao: 65, ordem: 7, mes: 2, semana: 2,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**AVC Isquêmico (80%):** Trombose ou embolia cerebral. Escala NIHSS para graduação. RM/TC para descartar hemorragia\n\n**Trombólise (rt-PA):** Janela até 4,5h sintomas, NIHSS leve-moderado, sem HAS mal controlada ou sangramento recente. Dose: 0,9 mg/kg\n\n**Trombectomia mecânica:** Até 24h se oclusão de grande vaso e <24h (DAWN/DEFUSE 3); melhora funcional comprovada\n\n**AVC Hemorrágico:** Hipodensidade à TC. Rever anticoagulação, trombocitopenia. Abordagem cirúrgica se volume significativo\n\n**Prevenção 2ária:** AAS 100mg/dia, Clopidogrel se intolerância, Atorvastatina 80mg, PA < 140/90, Warfarina se FA`, ativo: true,
     },
     {
       titulo: 'Sepse e Choque Séptico',
       descricao: 'Critérios diagnósticos (Sepsis-3), bundle de 1h, antibioticoterapia e suporte hemodinâmico no choque séptico.',
       disciplina: 'Clínica Médica', tema: 'UTI', tipo: 'texto', nivel: 'avancado',
       duracao: 75, ordem: 8, mes: 3, semana: 1,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Sepsis-3:** Infecção + SIRS (ou QSOFA em nível de criação: alteração mental OU PA sistólica ≤ 100 OU FR > 22)\n\n**Bundle de 1h:** 1) Lactato sérico | 2) Hemoculturas antes ATB | 3) ATB amplo IV (fluorquinolona + cephalosporina ou carbapenem) | 4) Cristaloides 30mL/kg se hipotensão\n\n**Choque Séptico:** Sepse + hipotensão requerendo vasopressor + lactato > 2 mmol/L (metabolismo anaeróbico)\n\n**Suporte hemodinâmico:** Norepinefrina 1ª linha se hipotensão refratária a fluidos | Vasopressina/Epinefrina se refratário\n\n**Controle de foco:** Retirada de cateter, drenagem de coleção, antibioticoterapia dirigida por cultura`, ativo: true,
     },
     // ── Cirurgia (6 aulas) ──
     {
@@ -144,7 +144,7 @@ async function main() {
       descricao: 'Diagnóstico diferencial do abdome agudo. Apendicite, colecistite, obstrução intestinal e perfuração de víscera.',
       disciplina: 'Cirurgia', tema: 'Cirurgia Abdominal', tipo: 'video', nivel: 'intermediario',
       duracao: 55, ordem: 1, mes: 1, semana: 3,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Apendicite:** dor periumbilical → FID, anorexia, náusea. Score de Alvarado (8+ = provável). TC > US. Tratamento: apendicectomia emergencial\n\n**Colecistite:** dor epigástrio/QSD com Murphy (+), febre. ECO com vesícula distendida, parede espessada, fluido perivesicular. Colecistectomia\n\n**Obstrução intestinal:** dor cólica, ausência de evacuação/flatos, vômitos, distensão. RX: níveis aéreos. Causa: bridas (pós-cirurgia), hérnias, massas, volvo\n\n**Perfuração de víscera:** dor súbita + peritonite, pneumoperitônio na TC. Abdome agudo cirúrgico: cirurgia emergencial\n\n**Avaliação:** Anamnese (início, localização, intensidade), exame (defesa, rigidez, Blumberg, Rebound), US/TC para confirmação`, ativo: true,
     },
     {
       titulo: 'Trauma e ATLS',
@@ -160,28 +160,28 @@ async function main() {
       descricao: 'Classificação, diagnóstico clínico e indicações cirúrgicas das hérnias inguinal, umbilical, incisional e femoral.',
       disciplina: 'Cirurgia', tema: 'Cirurgia Abdominal', tipo: 'video', nivel: 'basico',
       duracao: 40, ordem: 3, mes: 2, semana: 3,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Hérnia Inguinal:** Passagem através do anel/canal inguinal. Indireta (lateral ao ligamento falciforme de Hesselbach) vs Direta. Diagnóstico clínico; US se dúvida\n\n**Indicações cirúrgicas:** Hérnia sintomática (dor), risco de estrangulamento, atividade intensa. Hérnia incarcerrada/estrangulada = emergência\n\n**Hérnia Umbilical:** Defeito em tecido subjacente ao umbigo. Criança < 2-3 anos: observar (90% fecham espontaneamente). Persistente: cirurgia eletiva\n\n**Hérnia Incisional:** Após cirurgia abdominal anterior (falha técnica, infecção, obesidasade). Reparação se sintomática ou > 2-3 cm\n\n**Hérnia Femoral:** Rara mas alto risco de encarceração (50-60%). Diâmetro pequeno favorece aprisionamento do intestino`, ativo: true,
     },
     {
       titulo: 'Câncer Colorretal',
       descricao: 'Rastreamento, diagnóstico, estadiamento TNM e tratamento cirúrgico do câncer de cólon e reto.',
       disciplina: 'Cirurgia', tema: 'Oncologia Cirúrgica', tipo: 'texto', nivel: 'intermediario',
       duracao: 60, ordem: 4, mes: 3, semana: 1,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Rastreamento:** > 50 anos sem risco aumentado → colonoscopia a cada 10 anos (ou FOBT anual + sigmoidoscopia a cada 5 anos)\n\n**Fatores de risco:** Idade, história familiar, polipose, IBD, tabagismo, álcool, dieta pobre em fibras\n\n**Diagnóstico:** Colonoscopia com biópsia (padrão-ouro). Apresentação: sangramento retal, mudança hábito intestinal, anemia, dor abdominal\n\n**Estadiamento TNM:** T (invasão parede), N (linfonodos), M (metástase). Terapia complementar e quimioterapia conforme estadio\n\n**Tratamento cirúrgico:** Ressecção com margens livres ≥ 5 cm. Colectomia parcial ou total conforme localização. Ileostomia se necessário`, ativo: true,
     },
     {
       titulo: 'Queimaduras',
       descricao: 'Classificação por profundidade e extensão, fórmula de Parkland, indicações de UTI-Q e curativos.',
       disciplina: 'Cirurgia', tema: 'Trauma', tipo: 'video', nivel: 'intermediario',
       duracao: 45, ordem: 5, mes: 3, semana: 2,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Profundidade:** 1º grau (hiperemia, sem bolhas) | 2º grau superficial (bolhas, hiperemia) | 2º grau profundo (palidez, bolhas) | 3º grau (necrose, couro)\n\n**Extensão (Regra dos 9s):** Cabeça 9%, tronco ant. 18%, post. 18%, MI 18% c/u, genitais 1%\n\n**Fórmula de Parkland:** Cristaloides (SBRI) = 4 × peso (kg) × %SCQ | Metade em 8h, metade em 16h | Meta: diurese 0,5-1 mL/kg/h\n\n**Indicações de internação:** > 10-15% 2º grau adulto, > 5-10% criança/idoso, qualquer 3º grau, circunferencial de extremidade/tórax\n\n**Curativos:** Limpeza, remoção de tecido necrótico, antibióticos tópicos (sulfadiazina de prata). Autoenxerto quando viável (epitelização > 70%)`, ativo: true,
     },
     {
       titulo: 'Pancreatite Aguda',
       descricao: 'Etiologia, escore de Ranson e APACHE II, tratamento clínico e indicações de intervenção na pancreatite grave.',
       disciplina: 'Cirurgia', tema: 'Cirurgia Abdominal', tipo: 'texto', nivel: 'avancado',
       duracao: 65, ordem: 6, mes: 4, semana: 1,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Diagnóstico:** Amilase/lipase > 3x LSN + dor epigastral. Etiologia: biliar (80%), álcool, fármacos, hipertrigliceridemia (>1500), hipercalcemia\n\n**Escore de Ranson:** 5 critérios admissão (idade, glicemia, LDH, AST, leucócitos) + 6 em 48h → cada ponto = 1% risco de mortalidade\n\n**APACHE II:** Sistema de pontuação multifatorial. ≥ 8 = pancreatite grave (risco de morte e necessidade de intervenção)\n\n**Tratamento:** Jejum, hidratação agressiva IV (SBRI 250-500 mL/h), analgesia, suporte nutricional (nutrição enteral em < 48h se grave)\n\n**Complicações:** Pseudocistos (após 4 semanas, se > 6cm considerar drenagem), necrose pancreática (vidrado à TC) → antibióticos profiláticos`, ativo: true,
     },
     // ── Pediatria (6 aulas) ──
     {
@@ -189,7 +189,7 @@ async function main() {
       descricao: 'Marcos do DNPM, curvas de crescimento OMS, triagem auditiva, visual e desenvolvimento neurológico.',
       disciplina: 'Pediatria', tema: 'Desenvolvimento', tipo: 'video', nivel: 'basico',
       duracao: 40, ordem: 1, mes: 1, semana: 4,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Marcos DNPM:** Sorriso social 6 sem | Riso 4 meses | Senta sem apoio 6 meses | Engatinha 8 meses | Palavras 12 meses | Frases 2 anos\n\n**Curvas OMS:** Perímetro cefálico, comprimento/altura, peso avaliar regularmente. Desvio > 2 DP = investigar patologia\n\n**Triagem Auditiva:** TANU no pós-parto imediato (até 48h). AABR (audiometria de tronco encefálico) se falha TANU\n\n**Avaliação Visual:** Reflexo vermelho (detecta catarata, leuco ou retinoblastoma). Testes de visão formais > 3 anos\n\n**Desenvolvimento motor/cognitivo:** Avaliação sistemática em cada consulta. Escalas: Denver, Bayley se atraso suspeito`, ativo: true,
     },
     {
       titulo: 'Infecções Respiratórias na Infância',
@@ -205,28 +205,28 @@ async function main() {
       descricao: 'Prematuridade, RCIU, icterícia neonatal, hipoglicemia e sepse neonatal. Manejo na sala de parto e UTI Neonatal.',
       disciplina: 'Pediatria', tema: 'Neonatologia', tipo: 'video', nivel: 'avancado',
       duracao: 80, ordem: 3, mes: 2, semana: 4,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Prematuridade:** < 37 semanas. Complicações: SDR (surfactante deficiente) → ventilação/CPAP | BPD (displasia broncopulmonar) | ROP (retinopatia prematuridade)\n\n**RCIU:** Peso < p10 ou peso/altura desproporcional. Diferencial: simétrico (genético, TORCH, cromossomopatias) vs assimétrico (insuficiência placentária)\n\n**Icterícia Neonatal:** Bilirrubina indireta > níveis foterapia conforme idade (dias de vida/peso). Fototerapia ou exsanguineotransfusão se critério crítico\n\n**Hipoglicemia Neonatal:** Glicose < 40 mg/dL. Risco em prematuros, PIG, hipotermia, infecção. Tratamento: dextrosol 10% IV ou amamentação frequente\n\n**Sepse Neonatal:** Risco em ruptura membrana > 18h, febre materna, colonização GBS. Hemoculturas + ATB empírico (ampicilina + gentamicina ± cefalosporina)`, ativo: true,
     },
     {
       titulo: 'Doenças Exantemáticas',
       descricao: 'Sarampo, rubéola, varicela, escarlatina, doença de Kawasaki. Diagnóstico diferencial e complicações.',
       disciplina: 'Pediatria', tema: 'Infectologia Pediátrica', tipo: 'texto', nivel: 'intermediario',
       duracao: 45, ordem: 4, mes: 3, semana: 3,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Sarampo:** Prodroma (3C: coriza, conjuntivite, tosse) → manchas de Koplik → rash máculo-papular. Complicações: encefalite, otite, pneumonia\n\n**Rubéola:** Rash rosa-claró maculopapular (rosto → corpo). Linfadenopatia posterior-cervical. Teratogênico < 20 sem (STORCH)\n\n**Varicela:** Vesículas "gota de orvalho em pétala rosa" em ondas. Prurido intenso. Risco: herpes zoster em imunocompromissados\n\n**Escarlatina:** Estreptococo β-hemolítico. Rash micropapular "lixa". Língua em morango. Complicação: febre reumática\n\n**Doença de Kawasaki:** Criança < 5 anos, febre > 5 dias, rash, conjuntivite, lábios inflamados, língua morango, edema extremidades. Risco: aneurisma coronariano → imunoglobulina IV + AAS`, ativo: true,
     },
     {
       titulo: 'Desnutrição e Distúrbios Nutricionais',
       descricao: 'Marasmo, kwashiorkor, hipovitaminoses, anemia ferropriva. Diagnóstico e tratamento em pediatria.',
       disciplina: 'Pediatria', tema: 'Nutrição Pediátrica', tipo: 'video', nivel: 'basico',
       duracao: 40, ordem: 5, mes: 4, semana: 1,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Marasmo:** Deficiência calórica crônica. Criança magra, sem edema, aspecto "envelhecido". Albumina normal ou baixa\n\n**Kwashiorkor:** Deficiência proteica. Edema bilateral (pulmões, extremidades), dermatose de padrão periférico, hepatomegalia, apatia. Albumina baixa\n\n**Avitaminose A:** Cegueira noturna, xerose corneal, úlcera córneal (reversível se tratado rápido). Suplementação: 200.000 UI/dia por 2 dias\n\n**Anemia Ferropriva:** Mais comum em pediatria. Causa: alimentação inadequada (leite de vaca puro), parasitismo, hemorragia. Sulfato ferroso oral 30-60 mg Fe elementar/dia\n\n**Beribéri (B1), Pelagra (B3), Escorbuto (Vit C):** Desnutrição severa. Tratamento com suplementação específica e reabilitação nutricional`, ativo: true,
     },
     {
       titulo: 'Imunização: Calendário Vacinal',
       descricao: 'Calendário vacinal do Ministério da Saúde. Vacinas obrigatórias, esquemas de recuperação e contraindicações.',
       disciplina: 'Pediatria', tema: 'Imunização', tipo: 'texto', nivel: 'basico',
       duracao: 35, ordem: 6, mes: 4, semana: 2,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Calendário (2024 Brasil):** BCG (RN) | Hepatite B (RN) | Poliomielite/difteria/tétano/coqueluche/Haemophilus (2, 4, 6, 15 meses) | Pneumococo (2, 4, 6, 12 meses)\n\n**Continuação:** Meningococo (3, 5, 12 meses) | Rotavírus (2, 4 meses) | Sarampo/rubéola/caxumba (12 meses) | Varicela (12-15 meses)\n\n**Adolescentes:** HPV (11-12 anos) | Influenza anual | Meningococo Conjugado (dose única)\n\n**Esquema de Recuperação:** Doses atrasadas podem ser recuperadas (ajustar intervalos mínimos entre doses)\n\n**Contraindicações:** Alergia a componentes, encefalopatia progressiva, imunodeficiência severa (relativa para vivas), GBS após Guillain-Barré`, ativo: true,
     },
     // ── Ginecologia e Obstetrícia (5 aulas) ──
     {
@@ -234,7 +234,7 @@ async function main() {
       descricao: 'Rotina de pré-natal: exames, vacinas, suplementação, intercorrências frequentes e consultas.',
       disciplina: 'Ginecologia', tema: 'Obstetrícia', tipo: 'video', nivel: 'basico',
       duracao: 45, ordem: 1, mes: 2, semana: 2,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Frequência de consultas:** Mensal < 28 sem, quinzenal 28-36 sem, semanal > 36 sem | Parto > 37 sem (termo) e ≤ 41+6 sem\n\n**Exames:** Sorologia (anti-HIV, Sífilis, Hepatites B/C), tipagem sanguínea, Coombs, sangue periférico, glicemia jejum (24-28 sem TOTG), urocultura\n\n**Suplementação:** Ácido fólico 400 mcg/dia (prevenção DTN), Ferro 30-60 mg/dia (prevenção anemia), Cálcio 1000-1200 mg/dia\n\n**Vacinas:** dT (influenza anual se grávida), Hepatite B se não vacinada | CONTRA: sarampo, varicela (vivas)\n\n**Intercorrências:** Hiperêmese (< 12 sem), sangramento vaginal, queixa urinária (ITU/pielonefrite), HAS gestacional, DMG`, ativo: true,
     },
     {
       titulo: 'Síndromes Hipertensivas da Gestação',
@@ -250,21 +250,21 @@ async function main() {
       descricao: 'Mecanismo do parto, fases do trabalho de parto, partograma, cardiotocografia e assistência ao parto.',
       disciplina: 'Ginecologia', tema: 'Obstetrícia', tipo: 'video', nivel: 'intermediario',
       duracao: 55, ordem: 3, mes: 3, semana: 2,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Fases TP:** Latente (0-3 cm dilatação), Ativa (3-7 cm), Desaceleração (7-10 cm), Expulsivo (10 cm + puxos), Dequitadura (placentário)\n\n**Mecanismo 7 movimentos:** Acomodação, descida, flexão, rotação interna, extensão, rotação externa, expulsão\n\n**Cardiotocografia:** FBC 110-160 bpm, variabilidade ≥ 5-25 bpm, acelerações (bom prognóstico), desacelerações (avaliar tipo: leve, variável, tardia)\n\n**Partograma:** Gráfico progresso dilatação (linha ação se cruzar limite parto prolongado) + velocidade descida, contrações, bem-estar fetal\n\n**Complicações:** Distócia funcional, desproporcionalidade céfalo-pélvica, apresentação anômala → indicação para cesariana`, ativo: true,
     },
     {
       titulo: 'Câncer de Colo do Útero',
       descricao: 'HPV, rastreamento (Papanicolaou), colposcopia, estadiamento e tratamento do CCU.',
       disciplina: 'Ginecologia', tema: 'Oncologia Ginecológica', tipo: 'texto', nivel: 'intermediario',
       duracao: 50, ordem: 4, mes: 4, semana: 1,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**HPV e carcinogênese:** HPV 16 e 18 alto risco. Displasia: CIN I/II/III → carcinoma invasor se não tratado\n\n**Rastreamento (Papanicolaou):** Mulheres 25-64 anos, início sexual anterior. Resultado: Normal | ASC (Células escamosas atípicas) | LSIL/HSIL | Carcinoma\n\n**Colposcopia:** ASC-US ou HSIL → colposcopia com biópsia. Achados: mosaico, pontilhado, iodo-negativo\n\n**Estadiamento FIGO:** IA (microinvasão) → IIA (parametrial livre) → IIB (parametrial) → III (pelviano) → IV (bexiga/reto ou metástase)\n\n**Tratamento:** Conização/eletroconização CIN II/III | Histerectomia + radioterapia se invasor | Quimioterapia neoadjuvante em avançados`, ativo: true,
     },
     {
       titulo: 'Contracepção e Planejamento Familiar',
       descricao: 'Métodos contraceptivos, eficácia (índice de Pearl), contraindicações e anticoncepção de emergência.',
       disciplina: 'Ginecologia', tema: 'Ginecologia Geral', tipo: 'video', nivel: 'basico',
       duracao: 40, ordem: 5, mes: 4, semana: 2,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Eficácia (Índice de Pearl/100 mulher-ano):** DIU cobre 0,8-1,0 | Hormonal combinado 0,3 | Progestágeno puro 0,3 | Condom 18 | Coito interrompido 20\n\n**Métodos reversíveis:** ACO, injetável (medroxiprogesterona 150mg IM 12/12 sem), adesivo/anel, DIU-Cu, DIU-LNG, implante subdérmico\n\n**Métodos irreversíveis:** Laqueadura tubária, vasectomia | Avaliar: número filhos, idade, relação estável\n\n**Anticoncepção de emergência:** Levonorgestrel 1,5mg dose única (até 72h, máximo efetivo < 12h) | Acetato de ulipristal 30mg (até 120h)\n\n**Contraindicações absolutas ACO:** Tromboembolismo, AVC, >35 anos + tabagismo, migrânea com aura, câncer mama/endométrio`, ativo: true,
     },
     // ── Saúde Pública (5 aulas) ──
     {
@@ -281,28 +281,28 @@ async function main() {
       descricao: 'Incidência, prevalência, mortalidade, morbidade, coeficientes epidemiológicos e medidas de associação.',
       disciplina: 'Saúde Pública', tema: 'Epidemiologia', tipo: 'video', nivel: 'intermediario',
       duracao: 50, ordem: 2, mes: 2, semana: 3,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Incidência:** Novos casos / população sob risco × 1000/100.000 | Mede risco de adoecer\n\n**Prevalência:** Casos existentes / população total × 100 | Fotografo no tempo | Prevalência = Incidência × Duração\n\n**Mortalidade:** Óbitos / população média × 1000 | Mortalidade geral vs específica (idade, causa)\n\n**Morbidade:** Casos de doença / população total | Incapacidade, qualidade de vida\n\n**Medidas de associação:** RR (Risco Relativo) = risco expostos / risco não expostos | OR (Odds Ratio) = odds expostos / odds não expostos | NNT (número necessário para tratar)`, ativo: true,
     },
     {
       titulo: 'Vigilância Epidemiológica',
       descricao: 'SINAN, notificação compulsória, investigação de surtos, controle de doenças endêmicas e epidêmicas.',
       disciplina: 'Saúde Pública', tema: 'Epidemiologia', tipo: 'texto', nivel: 'intermediario',
       duracao: 45, ordem: 3, mes: 3, semana: 3,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**SINAN (Sistema de Informação Agravos Notificáveis):** Coleta dados sobre doença de notificação compulsória. Objetivo: detecção, acompanhamento, controle\n\n**Notificação compulsória:** Meningite, tuberculose, dengue, sarampo, febre amarela, hepatites virais, AIDS, sífilis, gonorreia, doença de Chagas\n\n**Investigação de Surtos:** ≥ 2 casos de mesma doença + vínculo epidemiológico | Descrever casos, investigar fonte/modo transmissão, controle (isolamento, quarentena, vacinação)\n\n**Controle de doenças:** Eliminação (varíola) | Erradicação (polio almeja) | Controle (TB, malária) | Vigilância contínua\n\n**Inquéritos epidemiológicos:** Estimam prevalência, identificam fatores risco, avaliam efetividade de programas`, ativo: true,
     },
     {
       titulo: 'Saúde da Família e ESF',
       descricao: 'Estratégia de Saúde da Família, composição das equipes, área de abrangência, ações prioritárias e PMAQ.',
       disciplina: 'Saúde Pública', tema: 'Atenção Primária', tipo: 'video', nivel: 'basico',
       duracao: 40, ordem: 4, mes: 4, semana: 3,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Equipe ESF:** Médico, enfermeiro, técnico de enfermagem, agente comunitário saúde (ACS) | Cobertura: 3.000-4.000 pessoas | 12 consultas/médico/dia\n\n**Área de abrangência:** Territorialização (mapeamento problemas saúde), vínculo com comunidade, responsabilização\n\n**Ações prioritárias:** Pré-natal/puerpério, puericultura, vacinação, hipertensão/diabetes, saúde bucal, controle TB/DSTs, saúde mental\n\n**PMAQ (Programa Melhoria Acesso Qualidade):** Autoavaliação → acreditação → reacreditação. Metas: acesso, acolhimento, linhas de cuidado\n\n**Diferencial:** Integralidade, longitudinalidade, primeiro contato, abordagem familiar/comunitária`, ativo: true,
     },
     {
       titulo: 'Políticas de Saúde e Programas Nacionais',
       descricao: 'PNAB, Rede Cegonha, Rede de Urgência e Emergência, Programa Saúde na Escola e políticas prioritárias.',
       disciplina: 'Saúde Pública', tema: 'Políticas de Saúde', tipo: 'texto', nivel: 'intermediario',
       duracao: 45, ordem: 5, mes: 4, semana: 4,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**PNAB (Política Nacional Atenção Básica):** Direcionamento ESF, cobertura universal, ações estratégicas, avaliação qualidade\n\n**Rede Cegonha:** Gravidez segura, parto normal, nascimento seguro, puerpério/aleitamento, planejamento familiar. Referência para parto, urgência obstétrica\n\n**Rede Urgência e Emergência:** PAM (porta ambulatorial) → Pronto Atendimento → SAMU/urgência hospitalar | Acesso único 192 (SAMU)\n\n**Programa Saúde na Escola:** Integra SUS + Educação. Ações: vacinação, saúde mental, prevenção DST, promoção alimentar, educação física\n\n**Programas prioritários:** Tuberculose (DOTS), AIDS (TARV universal), diabetes (Hiperdia), HAS, saúde mental (CAPS)`, ativo: true,
     },
     // ── Psiquiatria — Mês 5 (4 aulas) ────────────────────────────────────────
     {
@@ -393,7 +393,7 @@ async function main() {
       descricao: 'Psoríase (placas eritematosas com escamas prateadas), dermatite atópica (criança/adulto), dermatite de contato alérgica vs irritativa.',
       disciplina: 'Clínica Médica', tema: 'Dermatologia', tipo: 'texto', nivel: 'basico',
       duracao: 40, ordem: 1, mes: 5, semana: 3,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Psoríase:** Placas eritematosas com escamas prateadas, fenômeno de Auspitz (sangramento ao raspar). Cutânea, ungueal, artropatia. Tratamento: tópico (corticoide, análogo vit D) → sistêmico\n\n**Dermatite Atópica:** Prurido intenso, xerose, déficit barreira. Criança < 2 anos → adulto. Hidratação + corticoide tópico. Evitar irritantes, banhos longos\n\n**Dermatite Contato Alérgica:** Reação tipo IV. Contato alérgeno → eritema → vesículas → exsudação. Teste epicutâneo confirma. Tratamento: remover alérgeno + corticoide tópico\n\n**Dermatite Contato Irritativa:** Causticidade do agente (sem sensibilização prévia). Mais frequente que alérgica. Limite barreira com emolientes\n\n**Diferencial:** Alérgica pode ter disseminação; irritativa segue contorno contato. História exposição importante`, ativo: true,
     },
     {
       titulo: 'Infecções Cutâneas: Bacterianas, Fúngicas e Parasitárias',
@@ -409,7 +409,7 @@ async function main() {
       descricao: 'ABCDE do melanoma, estadiamento (Breslow), carcinoma basocelular (mais comum), carcinoma espinocelular. Fotoproteção e rastreamento.',
       disciplina: 'Clínica Médica', tema: 'Dermatologia', tipo: 'texto', nivel: 'intermediario',
       duracao: 35, ordem: 3, mes: 5, semana: 4,
-      videoUrl: null, conteudo: null, ativo: true,
+      videoUrl: null, conteudo: `**Melanoma — ABCDE:** Assimetria, Borda irregular, Cor (variegada), Diâmetro > 6mm, Evolução (mudança)\n\n**Breslow:** < 0,76mm (nível I-II) bom prognóstico | 0,76-1,5mm (nível III) | > 1,5mm (nível IV-V) → necessita linfadenectomia, prognóstico ruim\n\n**CBC (mais comum, 80%):** Nódulo pérola/translúcido com vasos telangiectásicos. Invasão lenta. Tratamento: cirurgião com margem 4-5mm\n\n**CEC (Carcinoma Espinocelular):** Nódulo ou úlcera em áreas expostas. Risco metástase maior que CBC. Margem 4-6mm conforme profundidade\n\n**Fotoproteção:** FPS ≥ 30 diária, evitar horário pico (10-16h), roupas protetoras, óculos UV. Rastreamento visual anual em alto risco`, ativo: true,
     },
     // ── Urgência/Emergência — Mês 6 (4 aulas) ────────────────────────────────
     {
