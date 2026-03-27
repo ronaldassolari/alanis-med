@@ -14,7 +14,7 @@ export async function handleLogin(formData: FormData) {
     await signIn("credentials", {
       email,
       password,
-      redirect: false,
+      redirectTo: "/",
     })
   } catch (error) {
     if (error instanceof AuthError) {
@@ -22,8 +22,6 @@ export async function handleLogin(formData: FormData) {
     }
     throw error
   }
-
-  redirect("/")
 }
 
 export async function handleRegister(formData: FormData) {
