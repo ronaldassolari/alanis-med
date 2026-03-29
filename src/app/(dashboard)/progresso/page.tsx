@@ -4,6 +4,7 @@ import { redirect } from "next/navigation"
 import { ProgressBar } from "@/components/ui/progress-bar"
 import { TrendingUp, BookOpen, Clock, AlertTriangle } from "lucide-react"
 import { NotasChart } from "./notas-chart"
+import { AnaliseIA } from "./analise-ia"
 
 export default async function ProgressoPage() {
   const session = await auth()
@@ -63,6 +64,24 @@ export default async function ProgressoPage() {
 
   const getProgressColor = (p: number): "green" | "blue" | "yellow" | "red" =>
     p >= 80 ? "green" : p >= 50 ? "blue" : p >= 25 ? "yellow" : "red"
+
+  const notaMedia = notas.length > 0
+    ? Math.round((notas.reduce((s, n) => s + n.valor, 0) / notas.length) * 10) / 10
+    : null
+
+  const statsParaIA = {
+    progressoGeral,
+    concluidas,
+    total,
+    tempoHoras,
+    notaMedia,
+    disciplinas: disciplinaStats.map(({ disc, percent, avgNota }) => ({
+      nome: disc,
+      percent,
+      nota: avgNota,
+      status: percent >= 80 ? "Avançado" : percent >= 50 ? "Em progresso" : percent >= 25 ? "Iniciando" : "Não iniciado",
+    })),
+  }
 
   return (
     <div className="p-8">
@@ -168,6 +187,11 @@ export default async function ProgressoPage() {
             </div>
           )}
         </div>
+      </div>
+
+      {/* Análise IA */}
+      <div className="mt-6">
+        <AnaliseIA stats={statsParaIA} />
       </div>
     </div>
   )
