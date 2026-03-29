@@ -9,9 +9,9 @@ export const proxy = auth((req) => {
     nextUrl.pathname.startsWith("/login") ||
     nextUrl.pathname.startsWith("/register")
 
-  const isApiAuth = nextUrl.pathname.startsWith("/api/auth")
+  const isApi = nextUrl.pathname.startsWith("/api/")
 
-  if (isApiAuth) return NextResponse.next()
+  if (isApi) return NextResponse.next()
 
   if (!isLoggedIn && !isPublicPath) {
     return NextResponse.redirect(new URL("/login", nextUrl))

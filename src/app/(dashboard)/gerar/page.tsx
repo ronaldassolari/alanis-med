@@ -169,8 +169,8 @@ export default function GerarPage() {
       } else {
         setQuestoes(result.questoes || [])
       }
-    } catch {
-      setError("Erro de rede. Tente novamente.")
+    } catch (e) {
+      setError(`Erro: ${e instanceof Error ? e.message : "Tente novamente."}`)
     }
     setLoading(false)
   }
