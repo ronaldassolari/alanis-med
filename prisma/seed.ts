@@ -47,29 +47,22 @@ async function main() {
       name: 'Alanis',
       password: hash,
       especialidade: 'Clínica Médica',
-      pontos: 1250,
-      streakDias: 7,
-      ultimoEstudo: new Date(),
-      planoAtivo: 'pro',
+      pontos: 0,
+      streakDias: 0,
+      ultimoEstudo: null,
+      planoAtivo: 'basico',
     },
   })
   console.log('✅ Usuário criado:', user.email)
 
-  // User badges (earned 3)
-  await db.userBadge.createMany({
-    data: [
-      { userId: user.id, badgeId: badges[0].id },
-      { userId: user.id, badgeId: badges[2].id },
-      { userId: user.id, badgeId: badges[3].id },
-    ],
-  })
+  // Usuário novo — sem badges ainda
 
   // ── METAS ───────────────────────────────────────────────────────────────────
   await db.meta.createMany({
     data: [
-      { userId: user.id, tipo: 'diaria', descricao: 'Completar 2 aulas', meta: 2, atual: 1, concluida: false },
-      { userId: user.id, tipo: 'semanal', descricao: 'Fazer 3 simulados', meta: 3, atual: 2, concluida: false },
-      { userId: user.id, tipo: 'mensal', descricao: 'Estudar 40 horas', meta: 40, atual: 28, concluida: false },
+      { userId: user.id, tipo: 'diaria', descricao: 'Completar 2 aulas', meta: 2, atual: 0, concluida: false },
+      { userId: user.id, tipo: 'semanal', descricao: 'Fazer 3 simulados', meta: 3, atual: 0, concluida: false },
+      { userId: user.id, tipo: 'mensal', descricao: 'Estudar 40 horas', meta: 40, atual: 0, concluida: false },
     ],
   })
   console.log('✅ Metas criadas')
@@ -82,15 +75,15 @@ async function main() {
       descricao: 'Diagnóstico, estratificação de risco e tratamento. Metas pressóricas e farmacoterapia de primeira e segunda linha.',
       disciplina: 'Clínica Médica', tema: 'Cardiologia', tipo: 'video', nivel: 'basico',
       duracao: 45, ordem: 1, mes: 1, semana: 1,
-      videoUrl: null,
+      videoUrl: 'https://www.youtube.com/watch?v=PfCPaFjq_I8',
       conteudo: `**Diagnóstico (PA ≥ 140/90 mmHg):** Confirmação em ≥ 2 ocasiões, 5 min repouso, sem deambulação prévia\n\n**Estratificação de Risco Cardiovascular:** Baixo, moderado, alto e muito alto conforme PA + fatores de risco (tabagismo, diabetes, dislipidemia, obesidade, histórico familiar)\n\n**Metas:** < 130/80 mmHg (geral) | < 140/90 (idosos ≥ 65 anos tolerando bem)\n\n**Farmacoterapia 1ª linha:** IECA, BRA, bloqueador de canal de cálcio, tiazídico. Associações: IECA + tiazídico ou bloqueador de cálcio\n\n**Monitorização:** MAPA 24h ou MRPA se controle inadequado`, ativo: true,
     },
     {
       titulo: 'Diabetes Mellitus Tipo 2',
       descricao: 'Fisiopatologia, diagnóstico, metas terapêuticas e farmacoterapia do DM2. Insulinoterapia e novos antidiabéticos.',
-      disciplina: 'Clínica Médica', tema: 'Endocrinologia', tipo: 'texto', nivel: 'intermediario',
+      disciplina: 'Clínica Médica', tema: 'Endocrinologia', tipo: 'video', nivel: 'intermediario',
       duracao: 60, ordem: 2, mes: 1, semana: 1,
-      videoUrl: null,
+      videoUrl: 'https://www.youtube.com/watch?v=1810QksWM04',
       conteudo: `**Diagnóstico de Diabetes Mellitus:**\n- Glicemia de jejum ≥ 126 mg/dL (2 ocasiões)\n- Glicemia 2h pós-TOTG ≥ 200 mg/dL\n- HbA1c ≥ 6,5%\n- Glicemia aleatória ≥ 200 mg/dL com sintomas\n\n**Metas:** HbA1c < 7%, PA < 130/80, LDL < 70\n\n**Tratamento:** MEV → Metformina → Associações (iSGLT2, GLP-1, sulfoniluréias) → Insulina`,
       ativo: true,
     },
@@ -99,14 +92,14 @@ async function main() {
       descricao: 'IAM com e sem supradesnivelamento de ST. Diagnóstico eletrocardiográfico, marcadores e tratamento de reperfusão.',
       disciplina: 'Clínica Médica', tema: 'Cardiologia', tipo: 'video', nivel: 'avancado',
       duracao: 70, ordem: 3, mes: 1, semana: 2,
-      videoUrl: null, conteudo: `**IAMCST:** Supradesnivelamento ST em derivações contíguas → reperfusão urgente (angioplastia primária < 120 min ou trombolíse < 30 min)\n\n**IAMSST:** Sem supradesnivelamento mas troponina elevada ou mudanças dinâmicas ST-T → estratificação de risco (GRACE)\n\n**Marcadores:** Troponina I/T (elevação 3-12h, pico 48h, normaliza 7-14d), CK-MB (mais específico para miocárdio)\n\n**Tratamento (DAPT + Anticoagulação):** AAS 300mg + Clopidogrel/Ticagrelor + HBPM + Nitrato + Betabloqueador\n\n**Angioplastia primária:** padrão-ouro em IAMCST com < 12h de sintomas`, ativo: true,
+      videoUrl: 'https://www.youtube.com/watch?v=KLW4rBTNHtk', conteudo: `**IAMCST:** Supradesnivelamento ST em derivações contíguas → reperfusão urgente (angioplastia primária < 120 min ou trombolíse < 30 min)\n\n**IAMSST:** Sem supradesnivelamento mas troponina elevada ou mudanças dinâmicas ST-T → estratificação de risco (GRACE)\n\n**Marcadores:** Troponina I/T (elevação 3-12h, pico 48h, normaliza 7-14d), CK-MB (mais específico para miocárdio)\n\n**Tratamento (DAPT + Anticoagulação):** AAS 300mg + Clopidogrel/Ticagrelor + HBPM + Nitrato + Betabloqueador\n\n**Angioplastia primária:** padrão-ouro em IAMCST com < 12h de sintomas`, ativo: true,
     },
     {
       titulo: 'Insuficiência Cardíaca',
       descricao: 'IC sistólica e diastólica. Classificação NYHA, diagnóstico e tratamento farmacológico baseado em evidências.',
-      disciplina: 'Clínica Médica', tema: 'Cardiologia', tipo: 'texto', nivel: 'intermediario',
+      disciplina: 'Clínica Médica', tema: 'Cardiologia', tipo: 'video', nivel: 'intermediario',
       duracao: 55, ordem: 4, mes: 1, semana: 2,
-      videoUrl: null,
+      videoUrl: 'https://www.youtube.com/watch?v=03j0wVOXFcA',
       conteudo: `**Diagnóstico:** Critérios de Framingham (2 maiores ou 1 maior + 2 menores)\n\n**Classificação NYHA:** I → IV conforme limitação funcional\n\n**Tratamento IC-FEr (FE < 40%):**\n- IECA/BRA (enalapril, losartana)\n- Betabloqueador (carvedilol, bisoprolol)\n- Espironolactona (se FE ≤ 35%)\n- Sacubitril/valsartana (ARNI) → substitui IECA se tolerado`,
       ativo: true,
     },
@@ -115,7 +108,7 @@ async function main() {
       descricao: 'Epidemiologia, diagnóstico, estratificação de gravidade (CURB-65, PSI) e tratamento da PAC no adulto.',
       disciplina: 'Clínica Médica', tema: 'Pneumologia', tipo: 'video', nivel: 'intermediario',
       duracao: 50, ordem: 5, mes: 2, semana: 1,
-      videoUrl: null, conteudo: `**Diagnóstico:** Tosse + sintomas sistêmicos + infiltrado pulmonar à ausculta/radiografia + critérios menores (febre, leucocitose, purulência)\n\n**CURB-65:** Confusão, Uréia > 7, Respiração > 30, PA sistólica < 90, idade ≥ 65 anos. 0-1 = baixo risco | 2 = moderado | ≥ 3 = alto (considerar internação)\n\n**Agentes:** Pneumococo, Haemophilus, Legionella. Em > 40 anos tabagista: incluir cobertura para anaeróbios\n\n**Tratamento:** Ambulatorial: Amoxicilina-clavulanato ou Fluorquinolona respiratória | Internado: Cefalosporina 3ª geração + Fluorquinolona ou Macrolídeo\n\n**Saturação O2 meta:** ≥ 90% (≥ 88% em DPOC)`, ativo: true,
+      videoUrl: 'https://www.youtube.com/watch?v=Oe_vi3epuGI', conteudo: `**Diagnóstico:** Tosse + sintomas sistêmicos + infiltrado pulmonar à ausculta/radiografia + critérios menores (febre, leucocitose, purulência)\n\n**CURB-65:** Confusão, Uréia > 7, Respiração > 30, PA sistólica < 90, idade ≥ 65 anos. 0-1 = baixo risco | 2 = moderado | ≥ 3 = alto (considerar internação)\n\n**Agentes:** Pneumococo, Haemophilus, Legionella. Em > 40 anos tabagista: incluir cobertura para anaeróbios\n\n**Tratamento:** Ambulatorial: Amoxicilina-clavulanato ou Fluorquinolona respiratória | Internado: Cefalosporina 3ª geração + Fluorquinolona ou Macrolídeo\n\n**Saturação O2 meta:** ≥ 90% (≥ 88% em DPOC)`, ativo: true,
     },
     {
       titulo: 'Doença Renal Crônica',
@@ -129,14 +122,14 @@ async function main() {
       descricao: 'AVC isquêmico e hemorrágico. Diagnóstico por imagem, janela terapêutica para trombólise e prevenção secundária.',
       disciplina: 'Clínica Médica', tema: 'Neurologia', tipo: 'video', nivel: 'avancado',
       duracao: 65, ordem: 7, mes: 2, semana: 2,
-      videoUrl: null, conteudo: `**AVC Isquêmico (80%):** Trombose ou embolia cerebral. Escala NIHSS para graduação. RM/TC para descartar hemorragia\n\n**Trombólise (rt-PA):** Janela até 4,5h sintomas, NIHSS leve-moderado, sem HAS mal controlada ou sangramento recente. Dose: 0,9 mg/kg\n\n**Trombectomia mecânica:** Até 24h se oclusão de grande vaso e <24h (DAWN/DEFUSE 3); melhora funcional comprovada\n\n**AVC Hemorrágico:** Hipodensidade à TC. Rever anticoagulação, trombocitopenia. Abordagem cirúrgica se volume significativo\n\n**Prevenção 2ária:** AAS 100mg/dia, Clopidogrel se intolerância, Atorvastatina 80mg, PA < 140/90, Warfarina se FA`, ativo: true,
+      videoUrl: 'https://www.youtube.com/watch?v=SObDP-BpdA4', conteudo: `**AVC Isquêmico (80%):** Trombose ou embolia cerebral. Escala NIHSS para graduação. RM/TC para descartar hemorragia\n\n**Trombólise (rt-PA):** Janela até 4,5h sintomas, NIHSS leve-moderado, sem HAS mal controlada ou sangramento recente. Dose: 0,9 mg/kg\n\n**Trombectomia mecânica:** Até 24h se oclusão de grande vaso e <24h (DAWN/DEFUSE 3); melhora funcional comprovada\n\n**AVC Hemorrágico:** Hipodensidade à TC. Rever anticoagulação, trombocitopenia. Abordagem cirúrgica se volume significativo\n\n**Prevenção 2ária:** AAS 100mg/dia, Clopidogrel se intolerância, Atorvastatina 80mg, PA < 140/90, Warfarina se FA`, ativo: true,
     },
     {
       titulo: 'Sepse e Choque Séptico',
       descricao: 'Critérios diagnósticos (Sepsis-3), bundle de 1h, antibioticoterapia e suporte hemodinâmico no choque séptico.',
-      disciplina: 'Clínica Médica', tema: 'UTI', tipo: 'texto', nivel: 'avancado',
+      disciplina: 'Clínica Médica', tema: 'UTI', tipo: 'video', nivel: 'avancado',
       duracao: 75, ordem: 8, mes: 3, semana: 1,
-      videoUrl: null, conteudo: `**Sepsis-3:** Infecção + SIRS (ou QSOFA em nível de criação: alteração mental OU PA sistólica ≤ 100 OU FR > 22)\n\n**Bundle de 1h:** 1) Lactato sérico | 2) Hemoculturas antes ATB | 3) ATB amplo IV (fluorquinolona + cephalosporina ou carbapenem) | 4) Cristaloides 30mL/kg se hipotensão\n\n**Choque Séptico:** Sepse + hipotensão requerendo vasopressor + lactato > 2 mmol/L (metabolismo anaeróbico)\n\n**Suporte hemodinâmico:** Norepinefrina 1ª linha se hipotensão refratária a fluidos | Vasopressina/Epinefrina se refratário\n\n**Controle de foco:** Retirada de cateter, drenagem de coleção, antibioticoterapia dirigida por cultura`, ativo: true,
+      videoUrl: 'https://www.youtube.com/watch?v=AqgH3jtGmM8', conteudo: `**Sepsis-3:** Infecção + SIRS (ou QSOFA em nível de criação: alteração mental OU PA sistólica ≤ 100 OU FR > 22)\n\n**Bundle de 1h:** 1) Lactato sérico | 2) Hemoculturas antes ATB | 3) ATB amplo IV (fluorquinolona + cephalosporina ou carbapenem) | 4) Cristaloides 30mL/kg se hipotensão\n\n**Choque Séptico:** Sepse + hipotensão requerendo vasopressor + lactato > 2 mmol/L (metabolismo anaeróbico)\n\n**Suporte hemodinâmico:** Norepinefrina 1ª linha se hipotensão refratária a fluidos | Vasopressina/Epinefrina se refratário\n\n**Controle de foco:** Retirada de cateter, drenagem de coleção, antibioticoterapia dirigida por cultura`, ativo: true,
     },
     // ── Cirurgia (6 aulas) ──
     {
@@ -144,7 +137,7 @@ async function main() {
       descricao: 'Diagnóstico diferencial do abdome agudo. Apendicite, colecistite, obstrução intestinal e perfuração de víscera.',
       disciplina: 'Cirurgia', tema: 'Cirurgia Abdominal', tipo: 'video', nivel: 'intermediario',
       duracao: 55, ordem: 1, mes: 1, semana: 3,
-      videoUrl: null, conteudo: `**Apendicite:** dor periumbilical → FID, anorexia, náusea. Score de Alvarado (8+ = provável). TC > US. Tratamento: apendicectomia emergencial\n\n**Colecistite:** dor epigástrio/QSD com Murphy (+), febre. ECO com vesícula distendida, parede espessada, fluido perivesicular. Colecistectomia\n\n**Obstrução intestinal:** dor cólica, ausência de evacuação/flatos, vômitos, distensão. RX: níveis aéreos. Causa: bridas (pós-cirurgia), hérnias, massas, volvo\n\n**Perfuração de víscera:** dor súbita + peritonite, pneumoperitônio na TC. Abdome agudo cirúrgico: cirurgia emergencial\n\n**Avaliação:** Anamnese (início, localização, intensidade), exame (defesa, rigidez, Blumberg, Rebound), US/TC para confirmação`, ativo: true,
+      videoUrl: 'https://www.youtube.com/watch?v=sSbaQtguG4I', conteudo: `**Apendicite:** dor periumbilical → FID, anorexia, náusea. Score de Alvarado (8+ = provável). TC > US. Tratamento: apendicectomia emergencial\n\n**Colecistite:** dor epigástrio/QSD com Murphy (+), febre. ECO com vesícula distendida, parede espessada, fluido perivesicular. Colecistectomia\n\n**Obstrução intestinal:** dor cólica, ausência de evacuação/flatos, vômitos, distensão. RX: níveis aéreos. Causa: bridas (pós-cirurgia), hérnias, massas, volvo\n\n**Perfuração de víscera:** dor súbita + peritonite, pneumoperitônio na TC. Abdome agudo cirúrgico: cirurgia emergencial\n\n**Avaliação:** Anamnese (início, localização, intensidade), exame (defesa, rigidez, Blumberg, Rebound), US/TC para confirmação`, ativo: true,
     },
     {
       titulo: 'Trauma e ATLS',
@@ -158,7 +151,7 @@ async function main() {
     {
       titulo: 'Hérnias Abdominais',
       descricao: 'Classificação, diagnóstico clínico e indicações cirúrgicas das hérnias inguinal, umbilical, incisional e femoral.',
-      disciplina: 'Cirurgia', tema: 'Cirurgia Abdominal', tipo: 'video', nivel: 'basico',
+      disciplina: 'Cirurgia', tema: 'Cirurgia Abdominal', tipo: 'texto', nivel: 'basico',
       duracao: 40, ordem: 3, mes: 2, semana: 3,
       videoUrl: null, conteudo: `**Hérnia Inguinal:** Passagem através do anel/canal inguinal. Indireta (lateral ao ligamento falciforme de Hesselbach) vs Direta. Diagnóstico clínico; US se dúvida\n\n**Indicações cirúrgicas:** Hérnia sintomática (dor), risco de estrangulamento, atividade intensa. Hérnia incarcerrada/estrangulada = emergência\n\n**Hérnia Umbilical:** Defeito em tecido subjacente ao umbigo. Criança < 2-3 anos: observar (90% fecham espontaneamente). Persistente: cirurgia eletiva\n\n**Hérnia Incisional:** Após cirurgia abdominal anterior (falha técnica, infecção, obesidasade). Reparação se sintomática ou > 2-3 cm\n\n**Hérnia Femoral:** Rara mas alto risco de encarceração (50-60%). Diâmetro pequeno favorece aprisionamento do intestino`, ativo: true,
     },
@@ -172,7 +165,7 @@ async function main() {
     {
       titulo: 'Queimaduras',
       descricao: 'Classificação por profundidade e extensão, fórmula de Parkland, indicações de UTI-Q e curativos.',
-      disciplina: 'Cirurgia', tema: 'Trauma', tipo: 'video', nivel: 'intermediario',
+      disciplina: 'Cirurgia', tema: 'Trauma', tipo: 'texto', nivel: 'intermediario',
       duracao: 45, ordem: 5, mes: 3, semana: 2,
       videoUrl: null, conteudo: `**Profundidade:** 1º grau (hiperemia, sem bolhas) | 2º grau superficial (bolhas, hiperemia) | 2º grau profundo (palidez, bolhas) | 3º grau (necrose, couro)\n\n**Extensão (Regra dos 9s):** Cabeça 9%, tronco ant. 18%, post. 18%, MI 18% c/u, genitais 1%\n\n**Fórmula de Parkland:** Cristaloides (SBRI) = 4 × peso (kg) × %SCQ | Metade em 8h, metade em 16h | Meta: diurese 0,5-1 mL/kg/h\n\n**Indicações de internação:** > 10-15% 2º grau adulto, > 5-10% criança/idoso, qualquer 3º grau, circunferencial de extremidade/tórax\n\n**Curativos:** Limpeza, remoção de tecido necrótico, antibióticos tópicos (sulfadiazina de prata). Autoenxerto quando viável (epitelização > 70%)`, ativo: true,
     },
@@ -187,7 +180,7 @@ async function main() {
     {
       titulo: 'Crescimento e Desenvolvimento Normal',
       descricao: 'Marcos do DNPM, curvas de crescimento OMS, triagem auditiva, visual e desenvolvimento neurológico.',
-      disciplina: 'Pediatria', tema: 'Desenvolvimento', tipo: 'video', nivel: 'basico',
+      disciplina: 'Pediatria', tema: 'Desenvolvimento', tipo: 'texto', nivel: 'basico',
       duracao: 40, ordem: 1, mes: 1, semana: 4,
       videoUrl: null, conteudo: `**Marcos DNPM:** Sorriso social 6 sem | Riso 4 meses | Senta sem apoio 6 meses | Engatinha 8 meses | Palavras 12 meses | Frases 2 anos\n\n**Curvas OMS:** Perímetro cefálico, comprimento/altura, peso avaliar regularmente. Desvio > 2 DP = investigar patologia\n\n**Triagem Auditiva:** TANU no pós-parto imediato (até 48h). AABR (audiometria de tronco encefálico) se falha TANU\n\n**Avaliação Visual:** Reflexo vermelho (detecta catarata, leuco ou retinoblastoma). Testes de visão formais > 3 anos\n\n**Desenvolvimento motor/cognitivo:** Avaliação sistemática em cada consulta. Escalas: Denver, Bayley se atraso suspeito`, ativo: true,
     },
@@ -203,7 +196,7 @@ async function main() {
     {
       titulo: 'Neonatologia: RN de Risco',
       descricao: 'Prematuridade, RCIU, icterícia neonatal, hipoglicemia e sepse neonatal. Manejo na sala de parto e UTI Neonatal.',
-      disciplina: 'Pediatria', tema: 'Neonatologia', tipo: 'video', nivel: 'avancado',
+      disciplina: 'Pediatria', tema: 'Neonatologia', tipo: 'texto', nivel: 'avancado',
       duracao: 80, ordem: 3, mes: 2, semana: 4,
       videoUrl: null, conteudo: `**Prematuridade:** < 37 semanas. Complicações: SDR (surfactante deficiente) → ventilação/CPAP | BPD (displasia broncopulmonar) | ROP (retinopatia prematuridade)\n\n**RCIU:** Peso < p10 ou peso/altura desproporcional. Diferencial: simétrico (genético, TORCH, cromossomopatias) vs assimétrico (insuficiência placentária)\n\n**Icterícia Neonatal:** Bilirrubina indireta > níveis foterapia conforme idade (dias de vida/peso). Fototerapia ou exsanguineotransfusão se critério crítico\n\n**Hipoglicemia Neonatal:** Glicose < 40 mg/dL. Risco em prematuros, PIG, hipotermia, infecção. Tratamento: dextrosol 10% IV ou amamentação frequente\n\n**Sepse Neonatal:** Risco em ruptura membrana > 18h, febre materna, colonização GBS. Hemoculturas + ATB empírico (ampicilina + gentamicina ± cefalosporina)`, ativo: true,
     },
@@ -217,7 +210,7 @@ async function main() {
     {
       titulo: 'Desnutrição e Distúrbios Nutricionais',
       descricao: 'Marasmo, kwashiorkor, hipovitaminoses, anemia ferropriva. Diagnóstico e tratamento em pediatria.',
-      disciplina: 'Pediatria', tema: 'Nutrição Pediátrica', tipo: 'video', nivel: 'basico',
+      disciplina: 'Pediatria', tema: 'Nutrição Pediátrica', tipo: 'texto', nivel: 'basico',
       duracao: 40, ordem: 5, mes: 4, semana: 1,
       videoUrl: null, conteudo: `**Marasmo:** Deficiência calórica crônica. Criança magra, sem edema, aspecto "envelhecido". Albumina normal ou baixa\n\n**Kwashiorkor:** Deficiência proteica. Edema bilateral (pulmões, extremidades), dermatose de padrão periférico, hepatomegalia, apatia. Albumina baixa\n\n**Avitaminose A:** Cegueira noturna, xerose corneal, úlcera córneal (reversível se tratado rápido). Suplementação: 200.000 UI/dia por 2 dias\n\n**Anemia Ferropriva:** Mais comum em pediatria. Causa: alimentação inadequada (leite de vaca puro), parasitismo, hemorragia. Sulfato ferroso oral 30-60 mg Fe elementar/dia\n\n**Beribéri (B1), Pelagra (B3), Escorbuto (Vit C):** Desnutrição severa. Tratamento com suplementação específica e reabilitação nutricional`, ativo: true,
     },
@@ -234,7 +227,7 @@ async function main() {
       descricao: 'Rotina de pré-natal: exames, vacinas, suplementação, intercorrências frequentes e consultas.',
       disciplina: 'Ginecologia', tema: 'Obstetrícia', tipo: 'video', nivel: 'basico',
       duracao: 45, ordem: 1, mes: 2, semana: 2,
-      videoUrl: null, conteudo: `**Frequência de consultas:** Mensal < 28 sem, quinzenal 28-36 sem, semanal > 36 sem | Parto > 37 sem (termo) e ≤ 41+6 sem\n\n**Exames:** Sorologia (anti-HIV, Sífilis, Hepatites B/C), tipagem sanguínea, Coombs, sangue periférico, glicemia jejum (24-28 sem TOTG), urocultura\n\n**Suplementação:** Ácido fólico 400 mcg/dia (prevenção DTN), Ferro 30-60 mg/dia (prevenção anemia), Cálcio 1000-1200 mg/dia\n\n**Vacinas:** dT (influenza anual se grávida), Hepatite B se não vacinada | CONTRA: sarampo, varicela (vivas)\n\n**Intercorrências:** Hiperêmese (< 12 sem), sangramento vaginal, queixa urinária (ITU/pielonefrite), HAS gestacional, DMG`, ativo: true,
+      videoUrl: 'https://www.youtube.com/watch?v=pUQPr2T_Weg', conteudo: `**Frequência de consultas:** Mensal < 28 sem, quinzenal 28-36 sem, semanal > 36 sem | Parto > 37 sem (termo) e ≤ 41+6 sem\n\n**Exames:** Sorologia (anti-HIV, Sífilis, Hepatites B/C), tipagem sanguínea, Coombs, sangue periférico, glicemia jejum (24-28 sem TOTG), urocultura\n\n**Suplementação:** Ácido fólico 400 mcg/dia (prevenção DTN), Ferro 30-60 mg/dia (prevenção anemia), Cálcio 1000-1200 mg/dia\n\n**Vacinas:** dT (influenza anual se grávida), Hepatite B se não vacinada | CONTRA: sarampo, varicela (vivas)\n\n**Intercorrências:** Hiperêmese (< 12 sem), sangramento vaginal, queixa urinária (ITU/pielonefrite), HAS gestacional, DMG`, ativo: true,
     },
     {
       titulo: 'Síndromes Hipertensivas da Gestação',
@@ -248,7 +241,7 @@ async function main() {
     {
       titulo: 'Trabalho de Parto e Parto Normal',
       descricao: 'Mecanismo do parto, fases do trabalho de parto, partograma, cardiotocografia e assistência ao parto.',
-      disciplina: 'Ginecologia', tema: 'Obstetrícia', tipo: 'video', nivel: 'intermediario',
+      disciplina: 'Ginecologia', tema: 'Obstetrícia', tipo: 'texto', nivel: 'intermediario',
       duracao: 55, ordem: 3, mes: 3, semana: 2,
       videoUrl: null, conteudo: `**Fases TP:** Latente (0-3 cm dilatação), Ativa (3-7 cm), Desaceleração (7-10 cm), Expulsivo (10 cm + puxos), Dequitadura (placentário)\n\n**Mecanismo 7 movimentos:** Acomodação, descida, flexão, rotação interna, extensão, rotação externa, expulsão\n\n**Cardiotocografia:** FBC 110-160 bpm, variabilidade ≥ 5-25 bpm, acelerações (bom prognóstico), desacelerações (avaliar tipo: leve, variável, tardia)\n\n**Partograma:** Gráfico progresso dilatação (linha ação se cruzar limite parto prolongado) + velocidade descida, contrações, bem-estar fetal\n\n**Complicações:** Distócia funcional, desproporcionalidade céfalo-pélvica, apresentação anômala → indicação para cesariana`, ativo: true,
     },
@@ -262,7 +255,7 @@ async function main() {
     {
       titulo: 'Contracepção e Planejamento Familiar',
       descricao: 'Métodos contraceptivos, eficácia (índice de Pearl), contraindicações e anticoncepção de emergência.',
-      disciplina: 'Ginecologia', tema: 'Ginecologia Geral', tipo: 'video', nivel: 'basico',
+      disciplina: 'Ginecologia', tema: 'Ginecologia Geral', tipo: 'texto', nivel: 'basico',
       duracao: 40, ordem: 5, mes: 4, semana: 2,
       videoUrl: null, conteudo: `**Eficácia (Índice de Pearl/100 mulher-ano):** DIU cobre 0,8-1,0 | Hormonal combinado 0,3 | Progestágeno puro 0,3 | Condom 18 | Coito interrompido 20\n\n**Métodos reversíveis:** ACO, injetável (medroxiprogesterona 150mg IM 12/12 sem), adesivo/anel, DIU-Cu, DIU-LNG, implante subdérmico\n\n**Métodos irreversíveis:** Laqueadura tubária, vasectomia | Avaliar: número filhos, idade, relação estável\n\n**Anticoncepção de emergência:** Levonorgestrel 1,5mg dose única (até 72h, máximo efetivo < 12h) | Acetato de ulipristal 30mg (até 120h)\n\n**Contraindicações absolutas ACO:** Tromboembolismo, AVC, >35 anos + tabagismo, migrânea com aura, câncer mama/endométrio`, ativo: true,
     },
@@ -279,7 +272,7 @@ async function main() {
     {
       titulo: 'Epidemiologia: Indicadores de Saúde',
       descricao: 'Incidência, prevalência, mortalidade, morbidade, coeficientes epidemiológicos e medidas de associação.',
-      disciplina: 'Saúde Pública', tema: 'Epidemiologia', tipo: 'video', nivel: 'intermediario',
+      disciplina: 'Saúde Pública', tema: 'Epidemiologia', tipo: 'texto', nivel: 'intermediario',
       duracao: 50, ordem: 2, mes: 2, semana: 3,
       videoUrl: null, conteudo: `**Incidência:** Novos casos / população sob risco × 1000/100.000 | Mede risco de adoecer\n\n**Prevalência:** Casos existentes / população total × 100 | Fotografo no tempo | Prevalência = Incidência × Duração\n\n**Mortalidade:** Óbitos / população média × 1000 | Mortalidade geral vs específica (idade, causa)\n\n**Morbidade:** Casos de doença / população total | Incapacidade, qualidade de vida\n\n**Medidas de associação:** RR (Risco Relativo) = risco expostos / risco não expostos | OR (Odds Ratio) = odds expostos / odds não expostos | NNT (número necessário para tratar)`, ativo: true,
     },
@@ -293,7 +286,7 @@ async function main() {
     {
       titulo: 'Saúde da Família e ESF',
       descricao: 'Estratégia de Saúde da Família, composição das equipes, área de abrangência, ações prioritárias e PMAQ.',
-      disciplina: 'Saúde Pública', tema: 'Atenção Primária', tipo: 'video', nivel: 'basico',
+      disciplina: 'Saúde Pública', tema: 'Atenção Primária', tipo: 'texto', nivel: 'basico',
       duracao: 40, ordem: 4, mes: 4, semana: 3,
       videoUrl: null, conteudo: `**Equipe ESF:** Médico, enfermeiro, técnico de enfermagem, agente comunitário saúde (ACS) | Cobertura: 3.000-4.000 pessoas | 12 consultas/médico/dia\n\n**Área de abrangência:** Territorialização (mapeamento problemas saúde), vínculo com comunidade, responsabilização\n\n**Ações prioritárias:** Pré-natal/puerpério, puericultura, vacinação, hipertensão/diabetes, saúde bucal, controle TB/DSTs, saúde mental\n\n**PMAQ (Programa Melhoria Acesso Qualidade):** Autoavaliação → acreditação → reacreditação. Metas: acesso, acolhimento, linhas de cuidado\n\n**Diferencial:** Integralidade, longitudinalidade, primeiro contato, abordagem familiar/comunitária`, ativo: true,
     },
@@ -1303,101 +1296,9 @@ async function main() {
 
   console.log('✅ Questões criadas: 80')
 
-  // ── PROGRESSO (30 entradas) ──────────────────────────────────────────────────
-  const progressoEntries = [
-    // Concluídas (10)
-    { idx: 0, percentual: 100, concluido: true, tempo: 48 },
-    { idx: 1, percentual: 100, concluido: true, tempo: 65 },
-    { idx: 2, percentual: 100, concluido: true, tempo: 72 },
-    { idx: 3, percentual: 100, concluido: true, tempo: 58 },
-    { idx: 4, percentual: 100, concluido: true, tempo: 53 },
-    { idx: 8, percentual: 100, concluido: true, tempo: 58 },
-    { idx: 14, percentual: 100, concluido: true, tempo: 42 },
-    { idx: 20, percentual: 100, concluido: true, tempo: 47 },
-    { idx: 25, percentual: 100, concluido: true, tempo: 38 },
-    { idx: 26, percentual: 100, concluido: true, tempo: 52 },
-    // Parciais (10)
-    { idx: 5, percentual: 75, concluido: false, tempo: 40 },
-    { idx: 6, percentual: 60, concluido: false, tempo: 42 },
-    { idx: 7, percentual: 50, concluido: false, tempo: 38 },
-    { idx: 9, percentual: 80, concluido: false, tempo: 45 },
-    { idx: 10, percentual: 40, concluido: false, tempo: 18 },
-    { idx: 15, percentual: 30, concluido: false, tempo: 15 },
-    { idx: 16, percentual: 65, concluido: false, tempo: 52 },
-    { idx: 21, percentual: 45, concluido: false, tempo: 22 },
-    { idx: 22, percentual: 55, concluido: false, tempo: 30 },
-    { idx: 27, percentual: 70, concluido: false, tempo: 35 },
-    // Mínimo (10)
-    { idx: 11, percentual: 10, concluido: false, tempo: 6 },
-    { idx: 12, percentual: 15, concluido: false, tempo: 10 },
-    { idx: 13, percentual: 5, concluido: false, tempo: 3 },
-    { idx: 17, percentual: 20, concluido: false, tempo: 12 },
-    { idx: 18, percentual: 10, concluido: false, tempo: 5 },
-    { idx: 19, percentual: 5, concluido: false, tempo: 3 },
-    { idx: 23, percentual: 10, concluido: false, tempo: 4 },
-    { idx: 24, percentual: 15, concluido: false, tempo: 8 },
-    { idx: 28, percentual: 5, concluido: false, tempo: 2 },
-    { idx: 29, percentual: 10, concluido: false, tempo: 5 },
-  ]
-
-  for (const p of progressoEntries) {
-    if (p.idx < aulas.length) {
-      await db.progresso.create({
-        data: {
-          userId: user.id,
-          aulaId: aulas[p.idx].id,
-          percentual: p.percentual,
-          concluido: p.concluido,
-          dataFim: p.concluido ? new Date() : null,
-          tempoGasto: p.tempo,
-        },
-      })
-    }
-  }
-  console.log('✅ Progresso criado: 30 entradas')
-
-  // ── TESTES + NOTAS (5) ───────────────────────────────────────────────────────
-  const testesData = [
-    { acertos: 17, total: 20, provaId: provaENARE.id, tipo: 'prova', diasAtras: 20, pontos: 280, percentil: 88 },
-    { acertos: 14, total: 20, provaId: provaCajuru.id, tipo: 'prova', diasAtras: 14, pontos: 210, percentil: 72 },
-    { acertos: 20, total: 20, provaId: provaSimulado.id, tipo: 'prova', diasAtras: 10, pontos: 350, percentil: 99 },
-    { acertos: 12, total: 20, provaId: provaCajuru.id, tipo: 'tematico', diasAtras: 7, pontos: 160, percentil: 55 },
-    { acertos: 18, total: 20, provaId: provaRapido.id, tipo: 'tematico', diasAtras: 3, pontos: 310, percentil: 94 },
-  ]
-
-  for (const t of testesData) {
-    const createdAt = new Date()
-    createdAt.setDate(createdAt.getDate() - t.diasAtras)
-    const nota = (t.acertos / t.total) * 10
-    const aprovado = nota >= 6
-
-    const teste = await db.teste.create({
-      data: {
-        userId: user.id,
-        provaId: t.provaId,
-        tipo: t.tipo,
-        respostas: JSON.stringify({}),
-        acertos: t.acertos,
-        total: t.total,
-        tempo: Math.floor(60 + Math.random() * 120),
-        pontos: t.pontos,
-        completado: true,
-        createdAt,
-      },
-    })
-
-    await db.nota.create({
-      data: {
-        userId: user.id,
-        testeId: teste.id,
-        valor: nota,
-        aprovado,
-        percentil: t.percentil,
-        createdAt,
-      },
-    })
-  }
-  console.log('✅ Testes e notas criados: 5')
+  // Usuário novo — sem progresso, sem testes, sem notas
+  console.log('✅ Progresso: zerado (usuário novo)')
+  console.log('✅ Testes e notas: zerado (usuário novo)')
 
   console.log('\n🎉 Seed v3 — 6 meses concluído!')
   console.log('   📧 alanis@med.com | 🔑 alanis123')
