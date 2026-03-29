@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { gerarQuestoes, type QuestaoGerada } from "@/app/actions/gerar"
+import type { QuestaoGerada } from "@/app/actions/gerar"
 import { Sparkles, RefreshCw, CheckCircle, AlertCircle, BookOpen, ChevronDown, ChevronUp } from "lucide-react"
 
 const DISCIPLINAS = [
@@ -157,17 +157,20 @@ export default function GerarPage() {
     setError(null)
     setQuestoes([])
 
-    const fd = new FormData()
-    fd.set("disciplina", disciplina)
-    fd.set("dificuldade", dificuldade)
-    fd.set("quantidade", String(quantidade))
-    fd.set("tema", tema)
-
-    const result = await gerarQuestoes(fd)
-    if (result.error) {
-      setError(result.error)
-    } else {
-      setQuestoes(result.questoes || [])
+    try {
+      const res = await fetch("/api/gerar", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ disciplina, dificuldade, quantidade: String(quantidade), tema }),
+      })
+      const result = await res.json()
+      if (result.error) {
+        setError(result.error)
+      } else {
+        setQuestoes(result.questoes || [])
+      }
+    } catch {
+      setError("Erro de rede. Tente novamente.")
     }
     setLoading(false)
   }
