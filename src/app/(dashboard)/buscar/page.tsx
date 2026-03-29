@@ -21,9 +21,9 @@ export default async function BuscarPage({ searchParams }: BuscarPageProps) {
       ? db.questao.findMany({
           where: {
             OR: [
-              { enunciado: { contains: q } },
-              { disciplina: { contains: q } },
-              { tema: { contains: q } },
+              { enunciado: { contains: q, mode: "insensitive" } },
+              { disciplina: { contains: q, mode: "insensitive" } },
+              { tema: { contains: q, mode: "insensitive" } },
             ],
           },
           include: { prova: { select: { nome: true } } },
@@ -35,9 +35,9 @@ export default async function BuscarPage({ searchParams }: BuscarPageProps) {
           where: {
             ativo: true,
             OR: [
-              { titulo: { contains: q } },
-              { descricao: { contains: q } },
-              { disciplina: { contains: q } },
+              { titulo: { contains: q, mode: "insensitive" } },
+              { descricao: { contains: q, mode: "insensitive" } },
+              { disciplina: { contains: q, mode: "insensitive" } },
             ],
           },
           take: 20,
@@ -48,8 +48,8 @@ export default async function BuscarPage({ searchParams }: BuscarPageProps) {
           where: {
             ativo: true,
             OR: [
-              { nome: { contains: q } },
-              { descricao: { contains: q } },
+              { nome: { contains: q, mode: "insensitive" } },
+              { descricao: { contains: q, mode: "insensitive" } },
             ],
           },
           take: 20,
