@@ -2,7 +2,7 @@
 
 import { auth } from "@/lib/auth"
 import { db } from "@/lib/db"
-import Anthropic from "@anthropic-ai/sdk"
+import OpenAI from "openai"
 import { redirect } from "next/navigation"
 
 export interface QuestaoGerada {
@@ -20,9 +20,9 @@ export interface QuestaoGerada {
 }
 
 function getClient() {
-  const apiKey = process.env.ANTHROPIC_API_KEY
+  const apiKey = process.env.DEEPSEEK_API_KEY
   if (!apiKey) return null
-  return new Anthropic({ apiKey })
+  return new OpenAI({ apiKey, baseURL: "https://api.deepseek.com" })
 }
 
 export async function gerarQuestoes(formData: FormData): Promise<{ questoes?: QuestaoGerada[]; error?: string }> {
@@ -40,7 +40,7 @@ export async function gerarQuestoes(formData: FormData): Promise<{ questoes?: Qu
 
   const client = getClient()
   if (!client) {
-    return { error: "ANTHROPIC_API_KEY não configurada no .env" }
+    return { error: "DEEPSEEK_API_KEY não configurada no .env" }
   }
 
   const nivelTexto =
@@ -79,14 +79,16 @@ Responda SOMENTE com JSON válido, sem markdown, sem texto extra:
 }`
 
   try {
-    const response = await client.messages.create({
-      model: "claude-haiku-4-5-20251001",
+    const response = await client.chat.completions.create({
+      model: "deepseek-chat",
       max_tokens: 4000,
-      system: "Você é especialista em educação médica e questões de residência médica no Brasil. Responda APENAS com JSON válido, sem markdown.",
-      messages: [{ role: "user", content: prompt }],
+      messages: [
+        { role: "system", content: "Você é especialista em educação médica e questões de residência médica no Brasil. Responda APENAS com JSON válido, sem markdown." },
+        { role: "user", content: prompt },
+      ],
     })
 
-    const text = response.content[0].type === "text" ? response.content[0].text : ""
+    const text = response.choices[0]?.message?.content || ""
     const cleaned = text.replace(/^```json?\n?/, "").replace(/\n?```$/, "").trim()
     const parsed = JSON.parse(cleaned)
 
