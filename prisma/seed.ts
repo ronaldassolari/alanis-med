@@ -111,6 +111,149 @@ async function main() {
       videoUrl: 'https://www.youtube.com/watch?v=Oe_vi3epuGI', conteudo: `**Diagnóstico:** Tosse + sintomas sistêmicos + infiltrado pulmonar à ausculta/radiografia + critérios menores (febre, leucocitose, purulência)\n\n**CURB-65:** Confusão, Uréia > 7, Respiração > 30, PA sistólica < 90, idade ≥ 65 anos. 0-1 = baixo risco | 2 = moderado | ≥ 3 = alto (considerar internação)\n\n**Agentes:** Pneumococo, Haemophilus, Legionella. Em > 40 anos tabagista: incluir cobertura para anaeróbios\n\n**Tratamento:** Ambulatorial: Amoxicilina-clavulanato ou Fluorquinolona respiratória | Internado: Cefalosporina 3ª geração + Fluorquinolona ou Macrolídeo\n\n**Saturação O2 meta:** ≥ 90% (≥ 88% em DPOC)`, ativo: true,
     },
     {
+      titulo: 'DPOC — Doença Pulmonar Obstrutiva Crônica',
+      descricao: 'Sistema ABE (GOLD 2025), farmacoterapia escalonada (LAMA/LABA/CI), papel dos eosinófilos, exacerbação aguda e oxigenoterapia domiciliar.',
+      disciplina: 'Clínica Médica', tema: 'Pneumologia', tipo: 'texto', nivel: 'intermediario',
+      duracao: 65, ordem: 5, mes: 2, semana: 2,
+      videoUrl: null,
+      conteudo: `## DPOC — Doença Pulmonar Obstrutiva Crônica
+
+**Base:** GOLD Report 2025 — Global Initiative for Chronic Obstructive Lung Disease (goldcopd.org).
+
+---
+
+## 1. Definição e Diagnóstico
+
+DPOC é uma doença heterogênea das vias aéreas e/ou alvéolos que causa obstrução persistente e progressiva ao fluxo de ar, associada a resposta inflamatória crônica aumentada a gases ou partículas nocivas.
+
+**Diagnóstico espirométrico:** VEF₁/CVF **< 0,70** pós-broncodilatador (critério fixo GOLD)
+
+> Diagnóstico exige espirometria — sintomas e radiografia isolados não confirmam DPOC. Diagnóstico clínico sem espirometria é inadequado.
+
+**Principais causas:**
+- Tabagismo (principal fator de risco — responsável por 80-90% dos casos)
+- Exposição ocupacional (poeiras, gases, fumos — sílica, carvão, isocianatos)
+- Combustão de biomassa (fogão a lenha — importante em mulheres não tabagistas)
+- Deficiência de alfa-1 antitripsina (causa genética — suspeitar em < 45 anos sem tabagismo)
+
+---
+
+## 2. Estadiamento Espirométrico — GOLD 1 a 4
+
+| Grau GOLD | VEF₁ (% do predito) | Gravidade obstrutiva |
+|-----------|---------------------|----------------------|
+| GOLD 1 | ≥ 80% | Leve |
+| GOLD 2 | 50-79% | Moderada |
+| GOLD 3 | 30-49% | Grave |
+| GOLD 4 | < 30% | Muito grave (risco de insuficiência respiratória) |
+
+---
+
+## 3. Sistema de Avaliação ABE (GOLD 2023-2025)
+
+O sistema **ABE** avalia conjuntamente sintomas e histórico de exacerbações para guiar o tratamento:
+
+| Grupo | Sintomas | Exacerbações (último ano) | Tratamento inicial recomendado |
+|-------|----------|--------------------------|-------------------------------|
+| **A** | Poucos (CAT < 10 ou mMRC 0-1) | 0-1 sem hospitalização | SABA ou SAMA conforme necessidade |
+| **B** | Mais (CAT ≥ 10 ou mMRC ≥ 2) | 0-1 sem hospitalização | LAMA **ou** LABA (preferir LAMA) |
+| **E** | Qualquer | ≥ 2 ou ≥ 1 com hospitalização | LAMA **+** LABA (dupla broncodilatação) |
+
+> **Grupos C e D foram eliminados no GOLD 2023.** O Grupo "E" (Exacerbations) engloba todos pacientes de alto risco, independente dos sintomas. A decisão de adicionar corticoide inalatório (CI) é guiada pelo nível de eosinófilos — não pelo grupo.
+
+**Escalas de sintomas:**
+- **CAT ≥ 10** = impacto significativo na qualidade de vida (alto)
+- **mMRC ≥ 2** = dispneia ao subir um lance de escadas / andar em plano
+
+---
+
+## 4. Farmacoterapia — Papel dos Eosinófilos
+
+A adição de **Corticoide Inalatório (CI)** é guiada pela contagem de eosinófilos no sangue periférico:
+
+| Eosinófilos (células/μL) | Recomendação de CI |
+|--------------------------|-------------------|
+| ≥ 300 | Forte indicação para adicionar CI (alto benefício) |
+| 100-300 + ≥ 2 exacerbações | Considerar CI |
+| < 100 | CI traz benefício mínimo e aumenta risco de pneumonia |
+
+**Broncodilatadores disponíveis:**
+- **SABA** (Short-Acting Beta₂ Agonist): salbutamol, fenoterol — uso de resgate
+- **SAMA** (Short-Acting Muscarinic Antagonist): ipratrópio — uso de resgate
+- **LABA** (Long-Acting Beta₂ Agonist): formoterol, salmeterol, indacaterol — 2×/dia ou 1×/dia
+- **LAMA** (Long-Acting Muscarinic Antagonist): tiotrópio, umeclidínio, glicopirrônio — 1×/dia (preferência)
+
+**Combinações fixas disponíveis:**
+- LAMA + LABA: umeclidínio/vilanterol, tiotrópio/olodaterol, glicopirrônio/indacaterol
+- LABA + CI: formoterol/budesonida, salmeterol/fluticasona
+- Triple: LAMA + LABA + CI (umeclidínio/vilanterol/fluticasona)
+
+> **Triple therapy:** benefício comprovado em reduzir exacerbações em pacientes com indicação de CI. Evitar em pacientes sem indicação (risco aumentado de pneumonia bacteriana).
+
+---
+
+## 5. Tratamento Não Farmacológico
+
+- **Cessação do tabagismo:** intervenção mais eficaz — reduz o declínio acelerado de VEF₁
+- **Vacinação:** Influenza anual + Pneumocócica (PCV20) + COVID-19 + Pertussis
+- **Oxigenoterapia domiciliar (OLD):** indicada se PaO₂ ≤ 55 mmHg ou SatO₂ ≤ 88% em repouso; mínimo 15h/dia; reduz mortalidade em GOLD 3-4 hipoxêmico
+- **VNI domiciliar:** considerar em hipercapnia crônica (PaCO₂ > 55 mmHg) ou após exacerbação com hipercapnia persistente
+- **Reabilitação pulmonar:** melhora capacidade funcional, qualidade de vida e reduz exacerbações — indicada em GOLD 2-4
+
+---
+
+## 6. Exacerbação Aguda de DPOC
+
+**Definição:** piora aguda dos sintomas respiratórios (dispneia, tosse, expectoração) que necessita mudança no tratamento habitual.
+
+**Critérios de Anthonisen para antibioticoterapia:**
+1. Aumento de dispneia
+2. Aumento do volume de escarro
+3. Escarro mais purulento
+
+**Antibiótico indicado se 2 ou 3 critérios presentes** (ou se ventilação mecânica):
+
+| Situação | Antibiótico preferido |
+|----------|-----------------------|
+| Exacerbação leve-moderada ambulatorial | Amoxicilina-clavulanato 875/125mg 12/12h × 5-7d |
+| Alternativa | Azitromicina 500mg/dia × 3d ou Levofloxacino 500mg/dia × 5d |
+| Hospitalização (possível Pseudomonas) | Ciprofloxacino 500mg 12/12h ou Piperacilina-tazobactam |
+
+**Tratamento hospitalar da exacerbação:**
+- SABA (salbutamol) + SAMA (ipratrópio) inalados nebulizados
+- Corticoide sistêmico: prednisolona 40mg/dia × **5 dias** (não prolongar — sem benefício adicional)
+- Antibiótico se Anthonisen ≥ 2 critérios
+- **VNI (Ventilação Não Invasiva):** indicada se pH 7,25-7,35 + PaCO₂ elevado + FR > 25 irpm — reduz mortalidade e necessidade de IOT
+- **IOT:** falha da VNI, Glasgow < 9, instabilidade hemodinâmica, parada respiratória
+
+---
+
+## 7. Caso Clínico
+
+**Cenário:** Homem, 65 anos, ex-tabagista (40 maços-ano, parou há 2 anos), dispneia mMRC 2 (ao subir escadas), 2 exacerbações no último ano sem hospitalização. CAT: 16. Espirometria pós-BD: VEF₁/CVF 0,58; VEF₁ 62% do predito. Eosinófilos: 380 células/μL.
+
+**Resolvendo passo a passo:**
+
+1. **Diagnóstico espirométrico:** VEF₁/CVF 0,58 (< 0,70) → **DPOC confirmado**. VEF₁ 62% → **GOLD 2** (moderado).
+
+2. **Classificação ABE:** 2 exacerbações sem hospitalização → **Grupo E** (alto risco de exacerbações). CAT 16 = sintomas significativos.
+
+3. **Tratamento inicial Grupo E:** LAMA + LABA em combinação fixa.
+
+4. **Adicionar CI?** Eosinófilos 380 μL (≥ 300) = forte indicação → **Triple therapy: LAMA + LABA + CI**.
+
+5. **Demais medidas:** reabilitação pulmonar (GOLD 2 sintomático), vacinas (influenza + pneumocócica), não indicar OLD (SatO₂ normal).
+
+---
+
+## 8. Referências
+
+- Global Initiative for Chronic Obstructive Lung Disease. GOLD 2025 Report. goldcopd.org, 2025.
+- Agustí A et al. Global Initiative for COPD 2023 Report: GOLD Executive Summary. Eur Respir J. 2023;61(4):2300239.
+- Wedzicha JA et al. Management of COPD exacerbations: A European Respiratory Society/American Thoracic Society guideline. Eur Respir J. 2017;49(3):1600791.`,
+      ativo: true,
+    },
+    {
       titulo: 'Doença Renal Crônica',
       descricao: 'Estadiamento pela TFG, causas principais, diagnóstico de complicações e tratamento conservador e renal substitutivo.',
       disciplina: 'Clínica Médica', tema: 'Nefrologia', tipo: 'texto', nivel: 'intermediario',
@@ -141,11 +284,104 @@ async function main() {
     },
     {
       titulo: 'Trauma e ATLS',
-      descricao: 'Protocolo ATLS: ABCDE do trauma, avaliação primária e secundária, controle de hemorragia e classes de choque.',
+      descricao: 'Protocolo ATLS 11ª Edição: ABCDE do trauma, ressuscitação hemostática 1:1:1, classes de choque atualizadas e caso clínico.',
       disciplina: 'Cirurgia', tema: 'Trauma', tipo: 'texto', nivel: 'avancado',
       duracao: 70, ordem: 2, mes: 1, semana: 3,
       videoUrl: null,
-      conteudo: `**Avaliação Primária (ABCDE):**\nA - Airway + proteção cervical\nB - Breathing → pneumotórax, hemotórax\nC - Circulation → choque, hemorragia\nD - Disability → Glasgow, pupilas\nE - Exposure\n\n**Classes de Choque:**\nI: < 15% | II: 15-30% | III: 30-40% → hemoderivados | IV: > 40% → cirurgia`,
+      conteudo: `## Protocolo ATLS — 11ª Edição (ACS, 2025)
+
+**Base:** Advanced Trauma Life Support, 11ª Edição — American College of Surgeons.
+
+---
+
+## 1. Avaliação Primária — Protocolo ABCDE
+
+O ABCDE estrutura a avaliação do politraumatizado em ordem de prioridade de ameaça à vida:
+
+### A — Airway + Proteção Cervical
+- Inspecionar obstrução (corpo estranho, sangue, vômito, edema)
+- Manobra jaw-thrust se suspeita de trauma cervical (não usar chin-lift)
+- Dispositivos: cânula de Guedel, máscara laríngea, intubação orotraqueal
+- **Colar cervical** obrigatório até excluir lesão raquimedular
+
+### B — Breathing (Ventilação e Oxigenação)
+- Inspecionar expansibilidade torácica, auscultar bilateral, percutir
+- Emergências: **pneumotórax hipertensivo**, hemotórax maciço, tórax instável
+- Pneumotórax hipertensivo: punção imediata 2º EIC LMC → drenagem em selo d'água
+- Meta: SatO₂ ≥ 95%, FR 12-20 irpm
+
+### C — Circulation (Circulação e Controle de Hemorragia)
+- Controle de hemorragia externa: pressão direta, torniquete em extremidades
+- 2 acessos venosos periféricos calibrosos (≥ 14G)
+- Infundir 1L cristaloide → reavaliar; sem melhora → hemoderivados (protocolo 1:1:1)
+- REBOA (Resuscitative Endovascular Balloon Occlusion of the Aorta): hemorragia incontrolável
+
+### D — Disability (Status Neurológico)
+- Escala de Coma de Glasgow: Abertura Ocular + Resposta Verbal + Resposta Motora
+- TCE grave: ECG ≤ 8 → IOT imediata
+- Avaliar pupilas: midríase unilateral fixa → herniação transtentorial (neurocirurgia urgente)
+- Glicemia capilar (hipoglicemia pode mimetizar TCE)
+
+### E — Exposure + Controle de Hipotermia
+- Expor completamente o paciente (remover roupas)
+- Inspecionar dorso, períneo, axilas (log-roll com 4 pessoas)
+- Cobrir com manta térmica — hipotermia agrava coagulopatia ("tríade fatal")
+
+---
+
+## 2. Classes de Choque Hemorrágico (ATLS 11ª Ed.)
+
+| Classe | Perda (%) | Volume (70 kg) | FC | PA sistólica | FR | Glasgow | Conduta |
+|--------|-----------|----------------|----|--------------|----|---------|---------|
+| I | < 15% | < 750 mL | < 100 | Normal | 14-20 | 15 | Cristaloide |
+| II | 15-30% | 750-1.500 mL | 100-120 | Normal/↓ | 20-30 | 13-14 | Cristaloide + hemoderiv. |
+| III | 30-40% | 1.500-2.000 mL | 120-140 | ↓ | 30-40 | 11-12 | Hemoderivados + cirurgia |
+| IV | > 40% | > 2.000 mL | > 140 | ↓↓ | > 40 | ≤ 10 | Cirurgia de emergência |
+
+> **Atualização ATLS 11ª Ed.:** Recomenda uso combinado de FC, PA, lactato e FAST para guiar ressuscitação — não depender isoladamente das classes de choque.
+
+---
+
+## 3. Ressuscitação Hemostática — Protocolo 1:1:1
+
+Em hemorragia grave (Classe III ou IV), hemoderivados são superiores ao uso isolado de cristaloides:
+
+- **CH : PFC : Plaquetas = 1:1:1** (concentrado de hemácias : plasma fresco congelado : plaquetas)
+- Evitar excesso de cristaloides — causa coagulopatia dilucional e síndrome compartimental
+- **Ácido tranexâmico:** 1g IV em 10 min nas primeiras 3h do trauma (reduz mortalidade por hemorragia — estudo CRASH-2)
+- **Cirurgia de Controle de Danos:** laparotomia abreviada + empacotamento → UTI para correção da tríade fatal → cirurgia definitiva
+
+---
+
+## 4. Avaliação Secundária
+
+Realizada após estabilização da avaliação primária:
+
+- **Anamnese AMPLA:** Alergias, Medicamentos, Passado médico, Última refeição, Ambiente do trauma
+- Exame físico completo da cabeça aos pés (incluindo dorso com log-roll)
+- **Radiografias obrigatórias:** cervical lateral, tórax AP, pelve AP
+- **FAST:** pericárdio, peritônio (hepatorrenal, esplenorrenal), pelve
+- TC de corpo inteiro ("trauma scan") se hemodinamicamente estável
+
+---
+
+## 5. Caso Clínico
+
+**Cenário:** Homem, 28 anos, acidente motociclístico. ECG 7, FC 138 bpm, PA 80/50 mmHg, FR 32 irpm, SatO₂ 84%, distensão jugular, ausência de MV à direita, desvio de traqueia para esquerda.
+
+**Diagnóstico:** Pneumotórax hipertensivo (diagnóstico CLÍNICO — não esperar TC).
+
+**Conduta imediata:** Descompressão com agulha no 2º EIC linha hemiclavicular direita → drenagem em selo d'água (5º EIC linha axilar média). Simultaneamente: IOT (ECG ≤ 8), 2 acessos calibrosos, hemoderivados 1:1:1 (Classe IV pelo choque + taquicardia extrema).
+
+> Por que não esperar a TC? Pneumotórax hipertensivo = emergência com minutos para PCR. Desvio de traqueia + ausência MV + distensão jugular + choque = diagnóstico clínico suficiente para ação imediata.
+
+---
+
+## 6. Referências
+
+- American College of Surgeons. ATLS: Advanced Trauma Life Support, 11th Edition. Chicago: ACS, 2025.
+- CRASH-2 Collaborators. Effects of tranexamic acid on death, vascular occlusive events. Lancet. 2010;376(9734):23-32.
+- Cannon JW. Hemorrhagic Shock. N Engl J Med. 2018;378(4):370-379.`,
       ativo: true,
     },
     {
@@ -406,12 +642,140 @@ async function main() {
     },
     // ── Urgência/Emergência — Mês 6 (4 aulas) ────────────────────────────────
     {
-      titulo: 'Urgências Cardiológicas: Arritmias e Cardioversão',
-      descricao: 'Fibrilação atrial, flutter, taquicardia ventricular e FV. Algoritmo ACLS, cardioversão elétrica e farmacológica, desfibrilação.',
+      titulo: 'Fibrilação Atrial — Diretrizes ESC 2024',
+      descricao: 'Framework AF-CARE, escore CHA₂DS₂-VASc, escolha de anticoagulante (NOACs), controle de frequência e ritmo, ablação por cateter. Base: ESC 2024.',
       disciplina: 'Clínica Médica', tema: 'Cardiologia', tipo: 'texto', nivel: 'avancado',
       duracao: 65, ordem: 1, mes: 6, semana: 1,
       videoUrl: null,
-      conteudo: `**FA com instabilidade:** cardioversão elétrica sincronizada imediata\n\nFA estável, < 48h: cardioversão farmacológica (amiodarona) ou elétrica\nFA > 48h: anticoagular 3 semanas antes de cardioverter (risco de trombo atrial)\n\n**TV com pulso + instabilidade:** cardioversão sincronizada 100J\n**TV sem pulso / FV:** desfibrilação não sincronizada 200J (bifásico) + RCP + adrenalina 1mg IV\n\n**Bradiarritmias:** atropina 0,5mg IV → marcapasso transcutâneo`,
+      conteudo: `## Fibrilação Atrial — Diretrizes ESC 2024
+
+**Base:** 2024 ESC Guidelines for the management of atrial fibrillation (Van Gelder IC et al., Eur Heart J 2024).
+
+---
+
+## 1. Epidemiologia e Impacto Clínico
+
+A FA é a arritmia sustentada mais comum, afetando 2-4% da população adulta. Prevalência aumenta com a idade: < 0,5% em < 40 anos vs 10% em > 80 anos. É responsável por **20-30% dos AVCs isquêmicos** e aumenta em 5× o risco tromboembólico. FA assintomática é frequente — screening com ECG de 30s recomendado em ≥ 65 anos.
+
+---
+
+## 2. Framework AF-CARE (ESC 2024)
+
+A ESC 2024 introduziu o framework **AF-CARE** como estrutura de manejo holístico integrado:
+
+| Pilar | Significado | Ações principais |
+|-------|-------------|-----------------|
+| **C** — Comorbidities | Tratar comorbidades | HAS, DM, obesidade, SAOS, álcool, sedentarismo |
+| **A** — Avoid stroke | Prevenir AVC/TEP | CHA₂DS₂-VASc → anticoagulação (NOACs) |
+| **R** — Rate/Rhythm | Controle FC ou ritmo | Betabloqueador, amiodarona, cardioversão, ablação |
+| **E** — Evaluation | Avaliar sintomas/QV | EHRA score, monitorização contínua, follow-up |
+
+> Este framework substitui a abordagem dicotômica "rate vs rhythm control" e coloca o tratamento de comorbidades como prioridade — reversão dos fatores de risco pode estabilizar ou reverter a FA.
+
+---
+
+## 3. Classificação da FA
+
+- **Paroxística:** episódios que terminam espontaneamente em < 7 dias
+- **Persistente:** duração > 7 dias, requer intervenção para terminar
+- **Persistente de longa duração:** > 12 meses de duração contínua
+- **Permanente:** decisão conjunta médico-paciente de não tentar restaurar ritmo sinusal
+
+---
+
+## 4. Prevenção de AVC — Escore CHA₂DS₂-VASc
+
+| Fator de risco | Pontuação |
+|----------------|-----------|
+| Insuficiência Cardíaca / FE reduzida (C) | 1 ponto |
+| Hipertensão arterial (H) | 1 ponto |
+| Idade ≥ 75 anos (A₂) | **2 pontos** |
+| Diabetes Mellitus (D) | 1 ponto |
+| AVC / AIT / tromboembolismo prévio (S₂) | **2 pontos** |
+| Doença vascular: IAM, placa aórtica, DAP (V) | 1 ponto |
+| Idade 65-74 anos (A) | 1 ponto |
+| Sexo feminino (Sc) | 1 ponto |
+
+**Indicação de anticoagulação:**
+- Homens com escore ≥ 1 → anticoagular; escore ≥ 2 → obrigatório
+- Mulheres com escore ≥ 2 → anticoagular (sexo feminino isolado não indica)
+- Avaliar risco de sangramento: escore HAS-BLED (modificável > não modificável → corrigir fatores antes de contraindicar)
+
+**Anticoagulante de escolha — NOACs preferidos sobre Varfarina na FA não valvar:**
+
+| NOAC | Dose padrão | Destaque |
+|------|-------------|----------|
+| Apixabana | 5 mg 2×/dia | Melhor perfil de segurança hemorrágica (ARISTOTLE) |
+| Rivaroxabana | 20 mg/dia com jantar | 1×/dia — maior adesão |
+| Dabigatrana | 150 mg 2×/dia | Maior eficácia na prevenção de AVC (RE-LY) |
+| Varfarina (INR 2-3) | Conforme INR | Apenas FA valvar (prótese metálica, estenose mitral reumática) |
+
+---
+
+## 5. Controle de Frequência (Rate Control)
+
+Alvo: FC ≤ 110 bpm em repouso (estratégia lenient — estudo RACE II) ou < 80 bpm se sintomático.
+
+- **1ª linha:** Betabloqueador (metoprolol succinato, bisoprolol, carvedilol) — preferência em IC-FEr
+- **1ª linha:** Bloqueador de canal de cálcio não-dihidropiridínico (diltiazem, verapamil) — **contraindicado em IC-FEr**
+- **2ª linha:** Digoxina (sedentários; não controla FC no exercício; índice terapêutico estreito)
+- Amiodarona: última opção para controle de frequência (toxicidade cumulativa)
+
+---
+
+## 6. Controle de Ritmo (Rhythm Control)
+
+Indicado em: sintomas persistentes apesar do controle de frequência, FA recente (< 1 ano), pacientes jovens, IC piorando por FA.
+
+**Cardioversão elétrica (CVE):**
+- FA < 48h: CVE imediata (baixo risco de trombo atrial)
+- FA > 48h ou duração desconhecida: **anticoagular ≥ 3 semanas** OU ecocardiograma transesofágico (para excluir trombo) antes da CVE
+- Energia: 120-200J bifásico sincronizado (sincronização obrigatória para evitar FV)
+- Manter anticoagulação ≥ 4 semanas após CVE (risco de "atordoamento atrial")
+
+**Cardioversão farmacológica (FA < 48h, hemodinâmica estável):**
+- Amiodarona 300mg IV em 1h → infusão manutenção (preferência em cardiopatia estrutural/IC)
+- Flecainida ou propafenona: contraindicado em cardiopatia estrutural (risco de pró-arritmia)
+- Pill-in-the-pocket (flecainida 200mg VO): pacientes sem cardiopatia, FA paroxística episódica
+
+**Ablação por cateter — Isolamento de Veias Pulmonares (IVP):**
+- Indicada em FA paroxística sintomática refratária a ≥ 1 antiarrítmico
+- ESC 2024: considerar IVP antes de antiarrítmicos em pacientes selecionados (jovens, FA recente)
+- Taxa de sucesso: 70-80% no primeiro procedimento (paroxística > persistente)
+- Complicações: tamponamento (1%), AVC peri-procedimento (< 1%), estenose de veias pulmonares
+
+---
+
+## 7. Emergência: FA com Instabilidade Hemodinâmica
+
+> Se FA + hipotensão, síncope, angina ou IC aguda descompensada → **cardioversão elétrica sincronizada IMEDIATA**. Não perder tempo com farmacológico em paciente instável.
+
+Sequência:
+1. Sedação (midazolam + fentanil) ou anestesia geral rápida
+2. CVE sincronizada 120-200J bifásico
+3. Repetir com maior energia se não reverter (máximo 360J monofásico equivalente)
+4. Anticoagulação pós-CVE + monitorização
+
+---
+
+## 8. Caso Clínico
+
+**Cenário:** Mulher, 72 anos, diabética (DM2 em metformina), hipertensa (enalapril), sem AVC prévio. ECG: FA com FC 118 bpm. PA 138/85 mmHg, sem dispneia (NYHA I). Ecocardiograma: FE 55%, sem trombo. FA identificada há 36 horas.
+
+**Resolvendo:**
+
+1. **CHA₂DS₂-VASc:** HAS (1) + DM (1) + Sexo F (1) + Idade 65-74 (1) = **4 pontos** → anticoagulação obrigatória → apixabana 5mg 2×/dia.
+
+2. **Controle de ritmo ou frequência?** FA < 48h + sem cardiopatia estrutural → indicação de cardioversão. ECO sem trombo → CVE imediata possível após anticoagulação.
+
+3. **Conduta:** Anticoagular (apixabana ou HBPM IV), controle de FC com betabloqueador, CVE eletiva em 24-48h ou farmacológica (amiodarona). Manter anticoagulação ≥ 4 semanas pós-CVE + reavaliação longo prazo.
+
+---
+
+## 9. Referências
+
+- Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-3414.
+- Hindricks G et al. 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation. Eur Heart J. 2021;42(5):373-498.`,
       ativo: true,
     },
     {
