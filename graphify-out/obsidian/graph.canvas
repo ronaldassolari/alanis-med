@@ -1,0 +1,2899 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Aulas e Conte\u00fado M\u00e9dico",
+      "x": 0,
+      "y": 0,
+      "width": 1320,
+      "height": 1220,
+      "color": "1"
+    },
+    {
+      "id": "n_agents_agents",
+      "type": "file",
+      "file": "graphify/obsidian/AGENTS - Next.js Breaking Changes Warning.md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_apigerar",
+      "type": "file",
+      "file": "graphify/obsidian/API Route apigerar.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_approvalscoring",
+      "type": "file",
+      "file": "graphify/obsidian/Approval Scoring Logic (nota 0-10).md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_aprovadoscoring",
+      "type": "file",
+      "file": "graphify/obsidian/AprovadoBadge PassFail Display.md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_aulamodel",
+      "type": "file",
+      "file": "graphify/obsidian/Aula DB Model.md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_aulasidpage_auladetailpage",
+      "type": "file",
+      "file": "graphify/obsidian/Aula Detail Page.md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_aulascontent_psychiatrycontent",
+      "type": "file",
+      "file": "graphify/obsidian/Aulas Content - Psychiatry (AnsiedadeTOC).md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_aulaspage_aulaspage",
+      "type": "file",
+      "file": "graphify/obsidian/Aulas Page.md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_autoprovisioning",
+      "type": "file",
+      "file": "graphify/obsidian/Auto-provisioning Google Users in DB.md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_badge_badge",
+      "type": "file",
+      "file": "graphify/obsidian/Badge().md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_claude",
+      "type": "file",
+      "file": "graphify/obsidian/CLAUDE - Project Rules and Stack.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_disciplinabadge",
+      "type": "file",
+      "file": "graphify/obsidian/DisciplinaBadge Color Mapping.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gerarlayout_gerarlayout",
+      "type": "file",
+      "file": "graphify/obsidian/Gerar Layout.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gerarpage_gerarpage",
+      "type": "file",
+      "file": "graphify/obsidian/Gerar Questoes IA Page.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_loginpage_loginpage",
+      "type": "file",
+      "file": "graphify/obsidian/Login Page.md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_disciplinas",
+      "type": "file",
+      "file": "graphify/obsidian/Medical Disciplines Taxonomy.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_navconfiguration",
+      "type": "file",
+      "file": "graphify/obsidian/Nav Items Configuration.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_nextneon",
+      "type": "file",
+      "file": "graphify/obsidian/Neon PostgreSQL Adapter.md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_libauth_auth",
+      "type": "file",
+      "file": "graphify/obsidian/NextAuth Auth Config.md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_nextauth",
+      "type": "file",
+      "file": "graphify/obsidian/NextAuth Credentials + Google Provider.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_notamodel",
+      "type": "file",
+      "file": "graphify/obsidian/Nota DB Model.md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_notaspage_notaspage",
+      "type": "file",
+      "file": "graphify/obsidian/Notas Page.md",
+      "x": 20,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_prismaclient",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Client Singleton.md",
+      "x": 220,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_libdb_db",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma DB Client (db).md",
+      "x": 420,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_progressbar_progressbar",
+      "type": "file",
+      "file": "graphify/obsidian/ProgressBar UI Component.md",
+      "x": 20,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_progressomodel",
+      "type": "file",
+      "file": "graphify/obsidian/Progresso DB Model.md",
+      "x": 220,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_questaogerada",
+      "type": "file",
+      "file": "graphify/obsidian/QuestaoGerada Type (AI Generated).md",
+      "x": 420,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_readme",
+      "type": "file",
+      "file": "graphify/obsidian/README - Next.js Project Docs.md",
+      "x": 20,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_markdownrender",
+      "type": "file",
+      "file": "graphify/obsidian/ReactMarkdown Rendering in Aula.md",
+      "x": 220,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_serveraction",
+      "type": "file",
+      "file": "graphify/obsidian/Server Action Pattern.md",
+      "x": 420,
+      "y": 800,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_sidebar_sidebar",
+      "type": "file",
+      "file": "graphify/obsidian/Sidebar Component_1.md",
+      "x": 20,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_concept_maxduration",
+      "type": "file",
+      "file": "graphify/obsidian/maxDuration=60 for AI Route.md",
+      "x": 220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Auth e Database Core",
+      "x": 1400,
+      "y": 0,
+      "width": 1320,
+      "height": 1020,
+      "color": "2"
+    },
+    {
+      "id": "n_layout_dashboardlayout",
+      "type": "file",
+      "file": "graphify/obsidian/DashboardLayout().md",
+      "x": 1420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_route_get",
+      "type": "file",
+      "file": "graphify/obsidian/GET().md",
+      "x": 1620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_layout_gerarlayout",
+      "type": "file",
+      "file": "graphify/obsidian/GerarLayout().md",
+      "x": 1820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_route_post",
+      "type": "file",
+      "file": "graphify/obsidian/POST().md",
+      "x": 1420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_adapter_neon",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Neon Adapter.md",
+      "x": 1620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_layout_rootlayout",
+      "type": "file",
+      "file": "graphify/obsidian/RootLayout().md",
+      "x": 1820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_route_atualizarmetas",
+      "type": "file",
+      "file": "graphify/obsidian/atualizarMetas().md",
+      "x": 1420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_route_atualizarstreak",
+      "type": "file",
+      "file": "graphify/obsidian/atualizarStreak().md",
+      "x": 1620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_auth",
+      "type": "file",
+      "file": "graphify/obsidian/auth.ts.md",
+      "x": 1820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_db_createprismaclient",
+      "type": "file",
+      "file": "graphify/obsidian/createPrismaClient().md",
+      "x": 1420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_db",
+      "type": "file",
+      "file": "graphify/obsidian/db.ts.md",
+      "x": 1620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gerar",
+      "type": "file",
+      "file": "graphify/obsidian/gerar.ts.md",
+      "x": 1820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gerar_gerarquestoes",
+      "type": "file",
+      "file": "graphify/obsidian/gerarQuestoes().md",
+      "x": 1420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_route_geraruma",
+      "type": "file",
+      "file": "graphify/obsidian/gerarUma().md",
+      "x": 1620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gerar_getclient",
+      "type": "file",
+      "file": "graphify/obsidian/getClient().md",
+      "x": 1820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_auth_handlelogin",
+      "type": "file",
+      "file": "graphify/obsidian/handleLogin().md",
+      "x": 1420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_auth_handleregister",
+      "type": "file",
+      "file": "graphify/obsidian/handleRegister().md",
+      "x": 1620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_auth_handlesignout",
+      "type": "file",
+      "file": "graphify/obsidian/handleSignOut().md",
+      "x": 1820,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_sidebar_isactive",
+      "type": "file",
+      "file": "graphify/obsidian/isActive().md",
+      "x": 1420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_layout",
+      "type": "file",
+      "file": "graphify/obsidian/layout.tsx.md",
+      "x": 1620,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_proxy",
+      "type": "file",
+      "file": "graphify/obsidian/proxy.ts.md",
+      "x": 1820,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_route",
+      "type": "file",
+      "file": "graphify/obsidian/route.ts.md",
+      "x": 1420,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gerar_salvarquestoesgeradas",
+      "type": "file",
+      "file": "graphify/obsidian/salvarQuestoesGeradas().md",
+      "x": 1620,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_seed",
+      "type": "file",
+      "file": "graphify/obsidian/seed.ts.md",
+      "x": 1820,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_sidebar",
+      "type": "file",
+      "file": "graphify/obsidian/sidebar.tsx.md",
+      "x": 1420,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_route_verificarbadges",
+      "type": "file",
+      "file": "graphify/obsidian/verificarBadges().md",
+      "x": 1620,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "API Routes e Server Actions",
+      "x": 2800,
+      "y": 0,
+      "width": 1320,
+      "height": 1020,
+      "color": "3"
+    },
+    {
+      "id": "n_api_provas_id",
+      "type": "file",
+      "file": "graphify/obsidian/API Route GET apiprovasid (Fetch Prova with Questoes).md",
+      "x": 2820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_api_nextauth",
+      "type": "file",
+      "file": "graphify/obsidian/API Route NextAuth Handlers.md",
+      "x": 3020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_api_analise",
+      "type": "file",
+      "file": "graphify/obsidian/API Route POST apianalise (DeepSeek AI Analysis).md",
+      "x": 3220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_api_gerar",
+      "type": "file",
+      "file": "graphify/obsidian/API Route POST apigerar (Edge AI Question Generation).md",
+      "x": 2820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_api_testes",
+      "type": "file",
+      "file": "graphify/obsidian/API Route POST apitestes (Submit Test, Scoring, Gamification).md",
+      "x": 3020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_component_analise_ia",
+      "type": "file",
+      "file": "graphify/obsidian/AnaliseIA Client Component.md",
+      "x": 3220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_lib_auth",
+      "type": "file",
+      "file": "graphify/obsidian/Auth Library (srclibauth).md",
+      "x": 2820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_action_auth",
+      "type": "file",
+      "file": "graphify/obsidian/Auth Server Actions (handleLogin, handleRegister, handleSignOut).md",
+      "x": 3020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_buscar",
+      "type": "file",
+      "file": "graphify/obsidian/Buscar Page (Full-text Search).md",
+      "x": 3220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_dashboard_home",
+      "type": "file",
+      "file": "graphify/obsidian/Dashboard Home Page.md",
+      "x": 2820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_dashboard_layout",
+      "type": "file",
+      "file": "graphify/obsidian/Dashboard Layout (Auth Guard + Sidebar).md",
+      "x": 3020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_deepseek_api",
+      "type": "file",
+      "file": "graphify/obsidian/DeepSeek AI API (external).md",
+      "x": 3220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_action_gerar",
+      "type": "file",
+      "file": "graphify/obsidian/Gerar Questoes Server Action.md",
+      "x": 2820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_type_nextauth_session",
+      "type": "file",
+      "file": "graphify/obsidian/NextAuth Session Type Extension.md",
+      "x": 3020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_component_notas_chart",
+      "type": "file",
+      "file": "graphify/obsidian/NotasChart Client Component (Recharts).md",
+      "x": 3220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_perfil",
+      "type": "file",
+      "file": "graphify/obsidian/Perfil Page.md",
+      "x": 2820,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_lib_db",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma DB Client (@libdb).md",
+      "x": 3020,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_progresso",
+      "type": "file",
+      "file": "graphify/obsidian/Progresso Page.md",
+      "x": 3220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_prova_detail",
+      "type": "file",
+      "file": "graphify/obsidian/Prova Detail Page (Client take exam).md",
+      "x": 2820,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_provas",
+      "type": "file",
+      "file": "graphify/obsidian/Provas List Page.md",
+      "x": 3020,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_questao",
+      "type": "file",
+      "file": "graphify/obsidian/Questao Prisma Model.md",
+      "x": 3220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_register",
+      "type": "file",
+      "file": "graphify/obsidian/Register Page.md",
+      "x": 2820,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_revisar",
+      "type": "file",
+      "file": "graphify/obsidian/Revisar Page (Spaced Review).md",
+      "x": 3020,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_component_sidebar",
+      "type": "file",
+      "file": "graphify/obsidian/Sidebar Component.md",
+      "x": 3220,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_testes",
+      "type": "file",
+      "file": "graphify/obsidian/Testes Page (Quick Tests).md",
+      "x": 2820,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_user",
+      "type": "file",
+      "file": "graphify/obsidian/User Prisma Model.md",
+      "x": 3020,
+      "y": 720,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Prisma ORM e Entidades",
+      "x": 4200,
+      "y": 0,
+      "width": 1100,
+      "height": 920,
+      "color": "4"
+    },
+    {
+      "id": "n_proxy_auth",
+      "type": "file",
+      "file": "graphify/obsidian/Auth Proxy Middleware.md",
+      "x": 4220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_entity_questao",
+      "type": "file",
+      "file": "graphify/obsidian/Entity Questao.md",
+      "x": 4420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_entity_user",
+      "type": "file",
+      "file": "graphify/obsidian/Entity User.md",
+      "x": 4620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_account",
+      "type": "file",
+      "file": "graphify/obsidian/Model Account.md",
+      "x": 4220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_aula",
+      "type": "file",
+      "file": "graphify/obsidian/Model Aula.md",
+      "x": 4420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_badge",
+      "type": "file",
+      "file": "graphify/obsidian/Model Badge.md",
+      "x": 4620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_meta",
+      "type": "file",
+      "file": "graphify/obsidian/Model Meta.md",
+      "x": 4220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_nota",
+      "type": "file",
+      "file": "graphify/obsidian/Model Nota.md",
+      "x": 4420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_progresso",
+      "type": "file",
+      "file": "graphify/obsidian/Model Progresso.md",
+      "x": 4620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_prova",
+      "type": "file",
+      "file": "graphify/obsidian/Model Prova.md",
+      "x": 4220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_session",
+      "type": "file",
+      "file": "graphify/obsidian/Model Session.md",
+      "x": 4420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_teste",
+      "type": "file",
+      "file": "graphify/obsidian/Model Teste.md",
+      "x": 4620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_model_userbadge",
+      "type": "file",
+      "file": "graphify/obsidian/Model UserBadge.md",
+      "x": 4220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_db_neon",
+      "type": "file",
+      "file": "graphify/obsidian/Neon PostgreSQL Database.md",
+      "x": 4420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generated_browser",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Browser Entry Point.md",
+      "x": 4620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generated_commoninputs",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Common Input Types.md",
+      "x": 4220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prismaconfig_config",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Config.md",
+      "x": 4420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generated_enums",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Enums (empty).md",
+      "x": 4620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_internal_class",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Internal Class.md",
+      "x": 4220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generated_models",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Models Barrel.md",
+      "x": 4420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_internal_prismans_browser",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Namespace (browser).md",
+      "x": 4620,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_internal_prismans",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Namespace (server).md",
+      "x": 4220,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generated_client",
+      "type": "file",
+      "file": "graphify/obsidian/Prisma Server Client Entry Point.md",
+      "x": 4420,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_seed_main",
+      "type": "file",
+      "file": "graphify/obsidian/main().md",
+      "x": 4620,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Modelos de Dom\u00ednio",
+      "x": 5380,
+      "y": 0,
+      "width": 1100,
+      "height": 920,
+      "color": "5"
+    },
+    {
+      "id": "n_account",
+      "type": "file",
+      "file": "graphify/obsidian/Account.ts.md",
+      "x": 5400,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_badge_aprovadobadge",
+      "type": "file",
+      "file": "graphify/obsidian/AprovadoBadge().md",
+      "x": 5600,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_aula",
+      "type": "file",
+      "file": "graphify/obsidian/Aula.ts.md",
+      "x": 5800,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_badge_disciplinabadge",
+      "type": "file",
+      "file": "graphify/obsidian/DisciplinaBadge().md",
+      "x": 5400,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_meta",
+      "type": "file",
+      "file": "graphify/obsidian/Meta.ts.md",
+      "x": 5600,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nota",
+      "type": "file",
+      "file": "graphify/obsidian/Nota.ts.md",
+      "x": 5800,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_progresso",
+      "type": "file",
+      "file": "graphify/obsidian/Progresso.ts.md",
+      "x": 5400,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prova",
+      "type": "file",
+      "file": "graphify/obsidian/Prova.ts.md",
+      "x": 5600,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_questao",
+      "type": "file",
+      "file": "graphify/obsidian/Questao.ts.md",
+      "x": 5800,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_session",
+      "type": "file",
+      "file": "graphify/obsidian/Session.ts.md",
+      "x": 5400,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_teste",
+      "type": "file",
+      "file": "graphify/obsidian/Teste.ts.md",
+      "x": 5600,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_user",
+      "type": "file",
+      "file": "graphify/obsidian/User.ts.md",
+      "x": 5800,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_userbadge",
+      "type": "file",
+      "file": "graphify/obsidian/UserBadge.ts.md",
+      "x": 5400,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_badge",
+      "type": "file",
+      "file": "graphify/obsidian/badge.tsx.md",
+      "x": 5600,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_class",
+      "type": "file",
+      "file": "graphify/obsidian/class.ts.md",
+      "x": 5800,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_client",
+      "type": "file",
+      "file": "graphify/obsidian/client.ts.md",
+      "x": 5400,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_commoninputtypes",
+      "type": "file",
+      "file": "graphify/obsidian/commonInputTypes.ts.md",
+      "x": 5600,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_class_decodebase64aswasm",
+      "type": "file",
+      "file": "graphify/obsidian/decodeBase64AsWasm().md",
+      "x": 5800,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_enums",
+      "type": "file",
+      "file": "graphify/obsidian/enums.ts.md",
+      "x": 5400,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_class_getprismaclientclass",
+      "type": "file",
+      "file": "graphify/obsidian/getPrismaClientClass().md",
+      "x": 5600,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_models",
+      "type": "file",
+      "file": "graphify/obsidian/models.ts.md",
+      "x": 5800,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prismanamespace",
+      "type": "file",
+      "file": "graphify/obsidian/prismaNamespace.ts.md",
+      "x": 5400,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Progresso e An\u00e1lise IA",
+      "x": 0,
+      "y": 1300,
+      "width": 1100,
+      "height": 820,
+      "color": "6"
+    },
+    {
+      "id": "n_progress_bar_progressbar",
+      "type": "file",
+      "file": "graphify/obsidian/ProgressBar().md",
+      "x": 20,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analise_ia_analisar",
+      "type": "file",
+      "file": "graphify/obsidian/analisar().md",
+      "x": 220,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_analise_ia",
+      "type": "file",
+      "file": "graphify/obsidian/analise-ia.tsx.md",
+      "x": 420,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_atualizarperfil",
+      "type": "file",
+      "file": "graphify/obsidian/atualizarPerfil().md",
+      "x": 20,
+      "y": 1460,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_conceito",
+      "type": "file",
+      "file": "graphify/obsidian/conceito().md",
+      "x": 220,
+      "y": 1460,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_formattempo",
+      "type": "file",
+      "file": "graphify/obsidian/formatTempo().md",
+      "x": 420,
+      "y": 1460,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_getperformance",
+      "type": "file",
+      "file": "graphify/obsidian/getPerformance().md",
+      "x": 20,
+      "y": 1540,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_getprogresscolor",
+      "type": "file",
+      "file": "graphify/obsidian/getProgressColor().md",
+      "x": 220,
+      "y": 1540,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_getyoutubeid",
+      "type": "file",
+      "file": "graphify/obsidian/getYouTubeId().md",
+      "x": 420,
+      "y": 1540,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_handleconcluir",
+      "type": "file",
+      "file": "graphify/obsidian/handleConcluir().md",
+      "x": 20,
+      "y": 1620,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_handlegerar",
+      "type": "file",
+      "file": "graphify/obsidian/handleGerar().md",
+      "x": 220,
+      "y": 1620,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_handleiniciar",
+      "type": "file",
+      "file": "graphify/obsidian/handleIniciar().md",
+      "x": 420,
+      "y": 1620,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_handleresposta",
+      "type": "file",
+      "file": "graphify/obsidian/handleResposta().md",
+      "x": 20,
+      "y": 1700,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_handlesubmit",
+      "type": "file",
+      "file": "graphify/obsidian/handleSubmit().md",
+      "x": 220,
+      "y": 1700,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_iniciartesterapido",
+      "type": "file",
+      "file": "graphify/obsidian/iniciarTesteRapido().md",
+      "x": 420,
+      "y": 1700,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page_marcarprogresso",
+      "type": "file",
+      "file": "graphify/obsidian/marcarProgresso().md",
+      "x": 20,
+      "y": 1780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_notas_chart",
+      "type": "file",
+      "file": "graphify/obsidian/notas-chart.tsx.md",
+      "x": 220,
+      "y": 1780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_page",
+      "type": "file",
+      "file": "graphify/obsidian/page.tsx.md",
+      "x": 420,
+      "y": 1780,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_progress_bar",
+      "type": "file",
+      "file": "graphify/obsidian/progress-bar.tsx.md",
+      "x": 20,
+      "y": 1860,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "UI Components (Card)",
+      "x": 1400,
+      "y": 1300,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_card_card",
+      "type": "file",
+      "file": "graphify/obsidian/Card().md",
+      "x": 1420,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_card_cardbody",
+      "type": "file",
+      "file": "graphify/obsidian/CardBody().md",
+      "x": 1620,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_statcard_statcard",
+      "type": "file",
+      "file": "graphify/obsidian/StatCard UI Component.md",
+      "x": 1820,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_card",
+      "type": "file",
+      "file": "graphify/obsidian/card.tsx.md",
+      "x": 1420,
+      "y": 1460,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Prisma Browser Layer",
+      "x": 2800,
+      "y": 1300,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_browser",
+      "type": "file",
+      "file": "graphify/obsidian/browser.ts.md",
+      "x": 2820,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prismanamespacebrowser",
+      "type": "file",
+      "file": "graphify/obsidian/prismaNamespaceBrowser.ts.md",
+      "x": 3020,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "StatCard Component",
+      "x": 4200,
+      "y": 1300,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_stat_card_statcard",
+      "type": "file",
+      "file": "graphify/obsidian/StatCard().md",
+      "x": 4220,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stat_card",
+      "type": "file",
+      "file": "graphify/obsidian/stat-card.tsx.md",
+      "x": 4420,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "Prisma Config",
+      "x": 5380,
+      "y": 1300,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_prisma_config",
+      "type": "file",
+      "file": "graphify/obsidian/prisma.config.ts.md",
+      "x": 5400,
+      "y": 1380,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "Next.js Env Types",
+      "x": 0,
+      "y": 2200,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_next_env_d",
+      "type": "file",
+      "file": "graphify/obsidian/next-env.d.ts.md",
+      "x": 20,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "Next.js Config",
+      "x": 1400,
+      "y": 2200,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_next_config",
+      "type": "file",
+      "file": "graphify/obsidian/next.config.ts.md",
+      "x": 1420,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "NextAuth Types",
+      "x": 2800,
+      "y": 2200,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_next_auth_d",
+      "type": "file",
+      "file": "graphify/obsidian/next-auth.d.ts.md",
+      "x": 2820,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "Button Component",
+      "x": 4200,
+      "y": 2200,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_button",
+      "type": "file",
+      "file": "graphify/obsidian/button.tsx.md",
+      "x": 4220,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "Next.js Config Alt",
+      "x": 5380,
+      "y": 2200,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_nextconfig_config",
+      "type": "file",
+      "file": "graphify/obsidian/Next.js Config.md",
+      "x": 5400,
+      "y": 2280,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "label": "Env Types Alt",
+      "x": 0,
+      "y": 2680,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_nextenv_types",
+      "type": "file",
+      "file": "graphify/obsidian/Next.js Environment Types.md",
+      "x": 20,
+      "y": 2760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g16",
+      "type": "group",
+      "label": "VerificationToken",
+      "x": 1400,
+      "y": 2680,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_entity_verificationtoken",
+      "type": "file",
+      "file": "graphify/obsidian/Entity VerificationToken.md",
+      "x": 1420,
+      "y": 2760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g17",
+      "type": "group",
+      "label": "App Layout",
+      "x": 2800,
+      "y": 2680,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_app_root_layout",
+      "type": "file",
+      "file": "graphify/obsidian/Root App Layout.md",
+      "x": 2820,
+      "y": 2760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g18",
+      "type": "group",
+      "label": "Button UI",
+      "x": 4200,
+      "y": 2680,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_button_button",
+      "type": "file",
+      "file": "graphify/obsidian/Button UI Component.md",
+      "x": 4220,
+      "y": 2760,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_seed_client",
+      "fromNode": "n_seed",
+      "toNode": "n_client",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_adapter_neon",
+      "fromNode": "n_seed",
+      "toNode": "n_adapter_neon",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_seed_main",
+      "fromNode": "n_seed",
+      "toNode": "n_seed_main",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_generated_client",
+      "fromNode": "n_seed_main",
+      "toNode": "n_generated_client",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_adapter_neon",
+      "fromNode": "n_seed_main",
+      "toNode": "n_adapter_neon",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_db_neon",
+      "fromNode": "n_seed_main",
+      "toNode": "n_db_neon",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_badge",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_badge",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_entity_user",
+      "fromNode": "n_seed_main",
+      "toNode": "n_entity_user",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_meta",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_meta",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_aula",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_aula",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_prova",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_prova",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_teste",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_teste",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_nota",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_nota",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_progresso",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_progresso",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_userbadge",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_userbadge",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_session",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_session",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_model_account",
+      "fromNode": "n_seed_main",
+      "toNode": "n_model_account",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_seed_main_entity_questao",
+      "fromNode": "n_seed_main",
+      "toNode": "n_entity_questao",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_proxy_auth",
+      "fromNode": "n_proxy",
+      "toNode": "n_auth",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_browser_prismanamespacebrowser",
+      "fromNode": "n_browser",
+      "toNode": "n_prismanamespacebrowser",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_client",
+      "fromNode": "n_client",
+      "toNode": "n_client",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_enums",
+      "fromNode": "n_client",
+      "toNode": "n_enums",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_class",
+      "fromNode": "n_client",
+      "toNode": "n_class",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_prismanamespace",
+      "fromNode": "n_client",
+      "toNode": "n_prismanamespace",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_commoninputtypes",
+      "fromNode": "n_client",
+      "toNode": "n_commoninputtypes",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_account",
+      "fromNode": "n_client",
+      "toNode": "n_account",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_meta",
+      "fromNode": "n_client",
+      "toNode": "n_meta",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_userbadge",
+      "fromNode": "n_client",
+      "toNode": "n_userbadge",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_nota",
+      "fromNode": "n_client",
+      "toNode": "n_nota",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_prova",
+      "fromNode": "n_client",
+      "toNode": "n_prova",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_teste",
+      "fromNode": "n_client",
+      "toNode": "n_teste",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_badge",
+      "fromNode": "n_client",
+      "toNode": "n_badge",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_session",
+      "fromNode": "n_client",
+      "toNode": "n_session",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_progresso",
+      "fromNode": "n_client",
+      "toNode": "n_progresso",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_aula",
+      "fromNode": "n_client",
+      "toNode": "n_aula",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_questao",
+      "fromNode": "n_client",
+      "toNode": "n_questao",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_user",
+      "fromNode": "n_client",
+      "toNode": "n_user",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_client_db",
+      "fromNode": "n_client",
+      "toNode": "n_db",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_models_prismanamespace",
+      "fromNode": "n_models",
+      "toNode": "n_prismanamespace",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_commoninputtypes_enums",
+      "fromNode": "n_commoninputtypes",
+      "toNode": "n_enums",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_commoninputtypes_prismanamespace",
+      "fromNode": "n_commoninputtypes",
+      "toNode": "n_prismanamespace",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_account",
+      "fromNode": "n_enums",
+      "toNode": "n_account",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_meta",
+      "fromNode": "n_enums",
+      "toNode": "n_meta",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_userbadge",
+      "fromNode": "n_enums",
+      "toNode": "n_userbadge",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_nota",
+      "fromNode": "n_enums",
+      "toNode": "n_nota",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_prova",
+      "fromNode": "n_enums",
+      "toNode": "n_prova",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_teste",
+      "fromNode": "n_enums",
+      "toNode": "n_teste",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_badge",
+      "fromNode": "n_enums",
+      "toNode": "n_badge",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_session",
+      "fromNode": "n_enums",
+      "toNode": "n_session",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_progresso",
+      "fromNode": "n_enums",
+      "toNode": "n_progresso",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_aula",
+      "fromNode": "n_enums",
+      "toNode": "n_aula",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_questao",
+      "fromNode": "n_enums",
+      "toNode": "n_questao",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_enums_user",
+      "fromNode": "n_enums",
+      "toNode": "n_user",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_class_prismanamespace",
+      "fromNode": "n_class",
+      "toNode": "n_prismanamespace",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_class_class_decodebase64aswasm",
+      "fromNode": "n_class",
+      "toNode": "n_class_decodebase64aswasm",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_class_class_getprismaclientclass",
+      "fromNode": "n_class",
+      "toNode": "n_class_getprismaclientclass",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_account",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_account",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_meta",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_meta",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_userbadge",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_userbadge",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_nota",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_nota",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_prova",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_prova",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_teste",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_teste",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_badge",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_badge",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_session",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_session",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_progresso",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_progresso",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_aula",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_aula",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_questao",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_questao",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_prismanamespace_user",
+      "fromNode": "n_prismanamespace",
+      "toNode": "n_user",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_page",
+      "fromNode": "n_badge",
+      "toNode": "n_page",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_badge_badge",
+      "fromNode": "n_badge",
+      "toNode": "n_badge_badge",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_badge_disciplinabadge",
+      "fromNode": "n_badge",
+      "toNode": "n_badge_disciplinabadge",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_badge_aprovadobadge",
+      "fromNode": "n_badge",
+      "toNode": "n_badge_aprovadobadge",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_layout_layout_rootlayout",
+      "fromNode": "n_layout",
+      "toNode": "n_layout_rootlayout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_layout_auth",
+      "fromNode": "n_layout",
+      "toNode": "n_auth",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_layout_sidebar",
+      "fromNode": "n_layout",
+      "toNode": "n_sidebar",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_layout_layout_dashboardlayout",
+      "fromNode": "n_layout",
+      "toNode": "n_layout_dashboardlayout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_layout_layout_gerarlayout",
+      "fromNode": "n_layout",
+      "toNode": "n_layout_gerarlayout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_auth",
+      "fromNode": "n_page",
+      "toNode": "n_auth",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_page_db",
+      "fromNode": "n_page",
+      "toNode": "n_db",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_page_progress_bar",
+      "fromNode": "n_page",
+      "toNode": "n_progress_bar",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_atualizarperfil",
+      "fromNode": "n_page",
+      "toNode": "n_page_atualizarperfil",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_iniciartesterapido",
+      "fromNode": "n_page",
+      "toNode": "n_page_iniciartesterapido",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_notas_chart",
+      "fromNode": "n_page",
+      "toNode": "n_notas_chart",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_page_analise_ia",
+      "fromNode": "n_page",
+      "toNode": "n_analise_ia",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_getprogresscolor",
+      "fromNode": "n_page",
+      "toNode": "n_page_getprogresscolor",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_conceito",
+      "fromNode": "n_page",
+      "toNode": "n_page_conceito",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_formattempo",
+      "fromNode": "n_page",
+      "toNode": "n_page_formattempo",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_handleresposta",
+      "fromNode": "n_page",
+      "toNode": "n_page_handleresposta",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_handlesubmit",
+      "fromNode": "n_page",
+      "toNode": "n_page_handlesubmit",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_getperformance",
+      "fromNode": "n_page",
+      "toNode": "n_page_getperformance",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_gerar",
+      "fromNode": "n_page",
+      "toNode": "n_gerar",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_handlegerar",
+      "fromNode": "n_page",
+      "toNode": "n_page_handlegerar",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_marcarprogresso",
+      "fromNode": "n_page",
+      "toNode": "n_page_marcarprogresso",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_handleconcluir",
+      "fromNode": "n_page",
+      "toNode": "n_page_handleconcluir",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_handleiniciar",
+      "fromNode": "n_page",
+      "toNode": "n_page_handleiniciar",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_page_getyoutubeid",
+      "fromNode": "n_page",
+      "toNode": "n_page_getyoutubeid",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_auth_auth",
+      "fromNode": "n_auth",
+      "toNode": "n_auth",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_auth_db",
+      "fromNode": "n_auth",
+      "toNode": "n_db",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_auth_auth_handlelogin",
+      "fromNode": "n_auth",
+      "toNode": "n_auth_handlelogin",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_auth_auth_handleregister",
+      "fromNode": "n_auth",
+      "toNode": "n_auth_handleregister",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_auth_auth_handlesignout",
+      "fromNode": "n_auth",
+      "toNode": "n_auth_handlesignout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_auth_gerar",
+      "fromNode": "n_auth",
+      "toNode": "n_gerar",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_auth_route",
+      "fromNode": "n_auth",
+      "toNode": "n_route",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_gerar_db",
+      "fromNode": "n_gerar",
+      "toNode": "n_db",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_gerar_gerar_getclient",
+      "fromNode": "n_gerar",
+      "toNode": "n_gerar_getclient",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_gerar_gerar_gerarquestoes",
+      "fromNode": "n_gerar",
+      "toNode": "n_gerar_gerarquestoes",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_gerar_gerar_salvarquestoesgeradas",
+      "fromNode": "n_gerar",
+      "toNode": "n_gerar_salvarquestoesgeradas",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_gerar_getclient_gerar_gerarquestoes",
+      "fromNode": "n_gerar_getclient",
+      "toNode": "n_gerar_gerarquestoes",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_route_route_post",
+      "fromNode": "n_route",
+      "toNode": "n_route_post",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_route_db",
+      "fromNode": "n_route",
+      "toNode": "n_db",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_route_route_atualizarstreak",
+      "fromNode": "n_route",
+      "toNode": "n_route_atualizarstreak",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_route_route_atualizarmetas",
+      "fromNode": "n_route",
+      "toNode": "n_route_atualizarmetas",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_route_route_verificarbadges",
+      "fromNode": "n_route",
+      "toNode": "n_route_verificarbadges",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_route_route_get",
+      "fromNode": "n_route",
+      "toNode": "n_route_get",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_route_route_geraruma",
+      "fromNode": "n_route",
+      "toNode": "n_route_geraruma",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_route_post_route_atualizarstreak",
+      "fromNode": "n_route_post",
+      "toNode": "n_route_atualizarstreak",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_route_post_route_atualizarmetas",
+      "fromNode": "n_route_post",
+      "toNode": "n_route_atualizarmetas",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_route_post_route_verificarbadges",
+      "fromNode": "n_route_post",
+      "toNode": "n_route_verificarbadges",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_analise_ia_analise_ia_analisar",
+      "fromNode": "n_analise_ia",
+      "toNode": "n_analise_ia_analisar",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_page_marcarprogresso_page_handleconcluir",
+      "fromNode": "n_page_marcarprogresso",
+      "toNode": "n_page_handleconcluir",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_page_marcarprogresso_page_handleiniciar",
+      "fromNode": "n_page_marcarprogresso",
+      "toNode": "n_page_handleiniciar",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_sidebar_sidebar_isactive",
+      "fromNode": "n_sidebar",
+      "toNode": "n_sidebar_isactive",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_card_card_card",
+      "fromNode": "n_card",
+      "toNode": "n_card_card",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_card_card_cardbody",
+      "fromNode": "n_card",
+      "toNode": "n_card_cardbody",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_progress_bar_progress_bar_progressbar",
+      "fromNode": "n_progress_bar",
+      "toNode": "n_progress_bar_progressbar",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_badge_notaspage_notaspage",
+      "fromNode": "n_badge_badge",
+      "toNode": "n_notaspage_notaspage",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_badge_aulaspage_aulaspage",
+      "fromNode": "n_badge_badge",
+      "toNode": "n_aulaspage_aulaspage",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_badge_aulasidpage_auladetailpage",
+      "fromNode": "n_badge_badge",
+      "toNode": "n_aulasidpage_auladetailpage",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_badge_concept_disciplinabadge",
+      "fromNode": "n_badge_badge",
+      "toNode": "n_concept_disciplinabadge",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_badge_badge_concept_aprovadoscoring",
+      "fromNode": "n_badge_badge",
+      "toNode": "n_concept_aprovadoscoring",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_stat_card_stat_card_statcard",
+      "fromNode": "n_stat_card",
+      "toNode": "n_stat_card_statcard",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_db_adapter_neon",
+      "fromNode": "n_db",
+      "toNode": "n_adapter_neon",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_db_db_createprismaclient",
+      "fromNode": "n_db",
+      "toNode": "n_db_createprismaclient",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_prismaconfig_config_db_neon",
+      "fromNode": "n_prismaconfig_config",
+      "toNode": "n_db_neon",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_proxy_auth_lib_auth",
+      "fromNode": "n_proxy_auth",
+      "toNode": "n_lib_auth",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_internal_prismans_browser",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_internal_prismans_browser",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_generated_enums",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_generated_enums",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_account",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_account",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_session",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_session",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_badge",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_badge",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_userbadge",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_userbadge",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_meta",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_meta",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_aula",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_aula",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_progresso",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_progresso",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_prova",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_prova",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_teste",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_teste",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_browser_model_nota",
+      "fromNode": "n_generated_browser",
+      "toNode": "n_model_nota",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_internal_class",
+      "fromNode": "n_generated_client",
+      "toNode": "n_internal_class",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_internal_prismans",
+      "fromNode": "n_generated_client",
+      "toNode": "n_internal_prismans",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_generated_enums",
+      "fromNode": "n_generated_client",
+      "toNode": "n_generated_enums",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_account",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_account",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_session",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_session",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_badge",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_badge",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_userbadge",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_userbadge",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_meta",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_meta",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_aula",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_aula",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_progresso",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_progresso",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_prova",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_prova",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_teste",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_teste",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_client_model_nota",
+      "fromNode": "n_generated_client",
+      "toNode": "n_model_nota",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_account",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_account",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_session",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_session",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_badge",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_badge",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_userbadge",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_userbadge",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_meta",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_meta",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_aula",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_aula",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_progresso",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_progresso",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_prova",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_prova",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_teste",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_teste",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_model_nota",
+      "fromNode": "n_generated_models",
+      "toNode": "n_model_nota",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_generated_commoninputs",
+      "fromNode": "n_generated_models",
+      "toNode": "n_generated_commoninputs",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_models_internal_prismans",
+      "fromNode": "n_generated_models",
+      "toNode": "n_internal_prismans",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_enums_generated_commoninputs",
+      "fromNode": "n_generated_enums",
+      "toNode": "n_generated_commoninputs",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_generated_commoninputs_internal_prismans",
+      "fromNode": "n_generated_commoninputs",
+      "toNode": "n_internal_prismans",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_internal_class_internal_prismans",
+      "fromNode": "n_internal_class",
+      "toNode": "n_internal_prismans",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_model_meta_entity_user",
+      "fromNode": "n_model_meta",
+      "toNode": "n_entity_user",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_model_nota_entity_user",
+      "fromNode": "n_model_nota",
+      "toNode": "n_entity_user",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_model_prova_model_teste",
+      "fromNode": "n_model_prova",
+      "toNode": "n_model_teste",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_model_teste_entity_user",
+      "fromNode": "n_model_teste",
+      "toNode": "n_entity_user",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_model_session_entity_user",
+      "fromNode": "n_model_session",
+      "toNode": "n_entity_user",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_model_progresso_entity_user",
+      "fromNode": "n_model_progresso",
+      "toNode": "n_entity_user",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_model_progresso_model_aula",
+      "fromNode": "n_model_progresso",
+      "toNode": "n_model_aula",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_action_auth",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_action_auth",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_action_gerar",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_action_gerar",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_api_nextauth",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_api_nextauth",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_api_testes",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_api_testes",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_api_provas_id",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_api_provas_id",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_dashboard_layout",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_dashboard_layout",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_dashboard_home",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_dashboard_home",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_page_perfil",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_page_perfil",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_page_revisar",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_page_revisar",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_page_testes",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_page_testes",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_page_progresso",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_page_progresso",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_page_provas",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_page_provas",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_lib_auth_page_buscar",
+      "fromNode": "n_lib_auth",
+      "toNode": "n_page_buscar",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_page_register_action_auth",
+      "fromNode": "n_page_register",
+      "toNode": "n_action_auth",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_action_auth_lib_db",
+      "fromNode": "n_action_auth",
+      "toNode": "n_lib_db",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_action_auth_dashboard_layout",
+      "fromNode": "n_action_auth",
+      "toNode": "n_dashboard_layout",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_action_gerar_lib_db",
+      "fromNode": "n_action_gerar",
+      "toNode": "n_lib_db",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_action_gerar_deepseek_api",
+      "fromNode": "n_action_gerar",
+      "toNode": "n_deepseek_api",
+      "label": "calls [EXTRACTED]"
+    }
+  ]
+}

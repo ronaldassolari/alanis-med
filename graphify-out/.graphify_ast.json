@@ -1,0 +1,2799 @@
+{
+  "nodes": [
+    {
+      "id": "prisma_config",
+      "label": "prisma.config.ts",
+      "file_type": "code",
+      "source_file": "prisma.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_env_d",
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_config",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "seed",
+      "label": "seed.ts",
+      "file_type": "code",
+      "source_file": "prisma/seed.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "seed_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "prisma/seed.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "proxy",
+      "label": "proxy.ts",
+      "file_type": "code",
+      "source_file": "src/proxy.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "browser",
+      "label": "browser.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/browser.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "client",
+      "label": "client.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/client.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "models",
+      "label": "models.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "commoninputtypes",
+      "label": "commonInputTypes.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/commonInputTypes.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "enums",
+      "label": "enums.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/enums.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "class",
+      "label": "class.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/internal/class.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "class_decodebase64aswasm",
+      "label": "decodeBase64AsWasm()",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/internal/class.ts",
+      "source_location": "L41"
+    },
+    {
+      "id": "class_getprismaclientclass",
+      "label": "getPrismaClientClass()",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/internal/class.ts",
+      "source_location": "L322"
+    },
+    {
+      "id": "prismanamespace",
+      "label": "prismaNamespace.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/internal/prismaNamespace.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "prismanamespacebrowser",
+      "label": "prismaNamespaceBrowser.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/internal/prismaNamespaceBrowser.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "account",
+      "label": "Account.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Account.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "meta",
+      "label": "Meta.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Meta.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "userbadge",
+      "label": "UserBadge.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/UserBadge.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "nota",
+      "label": "Nota.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Nota.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "prova",
+      "label": "Prova.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Prova.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "teste",
+      "label": "Teste.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Teste.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "badge",
+      "label": "Badge.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Badge.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "session",
+      "label": "Session.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Session.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "progresso",
+      "label": "Progresso.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Progresso.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "aula",
+      "label": "Aula.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Aula.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "questao",
+      "label": "Questao.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/Questao.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "user",
+      "label": "User.ts",
+      "file_type": "code",
+      "source_file": "src/generated/prisma/models/User.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_auth_d",
+      "label": "next-auth.d.ts",
+      "file_type": "code",
+      "source_file": "src/types/next-auth.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/register/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_handlelogin",
+      "label": "handleLogin()",
+      "file_type": "code",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "auth_handleregister",
+      "label": "handleRegister()",
+      "file_type": "code",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L27"
+    },
+    {
+      "id": "auth_handlesignout",
+      "label": "handleSignOut()",
+      "file_type": "code",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L49"
+    },
+    {
+      "id": "gerar",
+      "label": "gerar.ts",
+      "file_type": "code",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "gerar_getclient",
+      "label": "getClient()",
+      "file_type": "code",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L22"
+    },
+    {
+      "id": "gerar_gerarquestoes",
+      "label": "gerarQuestoes()",
+      "file_type": "code",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L28"
+    },
+    {
+      "id": "gerar_salvarquestoesgeradas",
+      "label": "salvarQuestoesGeradas()",
+      "file_type": "code",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L116"
+    },
+    {
+      "id": "route",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/analise/route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src/app/api/analise/route.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "route",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/auth/[...nextauth]/route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_atualizarstreak",
+      "label": "atualizarStreak()",
+      "file_type": "code",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "route_atualizarmetas",
+      "label": "atualizarMetas()",
+      "file_type": "code",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L36"
+    },
+    {
+      "id": "route_verificarbadges",
+      "label": "verificarBadges()",
+      "file_type": "code",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L71"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L119"
+    },
+    {
+      "id": "route",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/provas/[id]/route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src/app/api/provas/[id]/route.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "route",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/gerar/route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_geraruma",
+      "label": "gerarUma()",
+      "file_type": "code",
+      "source_file": "src/app/api/gerar/route.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src/app/api/gerar/route.ts",
+      "source_location": "L37"
+    },
+    {
+      "id": "layout",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_dashboardlayout",
+      "label": "DashboardLayout()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/layout.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_atualizarperfil",
+      "label": "atualizarPerfil()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L38"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/revisar/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_iniciartesterapido",
+      "label": "iniciarTesteRapido()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L28"
+    },
+    {
+      "id": "analise_ia",
+      "label": "analise-ia.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/progresso/analise-ia.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "analise_ia_analisar",
+      "label": "analisar()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/progresso/analise-ia.tsx",
+      "source_location": "L35"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_getprogresscolor",
+      "label": "getProgressColor()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L65"
+    },
+    {
+      "id": "notas_chart",
+      "label": "notas-chart.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/progresso/notas-chart.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/provas/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_conceito",
+      "label": "conceito()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L52"
+    },
+    {
+      "id": "page_formattempo",
+      "label": "formatTempo()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L87"
+    },
+    {
+      "id": "page_handleresposta",
+      "label": "handleResposta()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L93"
+    },
+    {
+      "id": "page_handlesubmit",
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L98"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/buscar/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/notas/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_getperformance",
+      "label": "getPerformance()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/notas/page.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "layout",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/gerar/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_gerarlayout",
+      "label": "GerarLayout()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/gerar/layout.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/gerar/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_handlegerar",
+      "label": "handleGerar()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/gerar/page.tsx",
+      "source_location": "L155"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/aulas/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_marcarprogresso",
+      "label": "marcarProgresso()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L30"
+    },
+    {
+      "id": "page_handleconcluir",
+      "label": "handleConcluir()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L58"
+    },
+    {
+      "id": "page_handleiniciar",
+      "label": "handleIniciar()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L63"
+    },
+    {
+      "id": "page_getyoutubeid",
+      "label": "getYouTubeId()",
+      "file_type": "code",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L72"
+    },
+    {
+      "id": "page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/login/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "sidebar",
+      "label": "sidebar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/sidebar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "sidebar_isactive",
+      "label": "isActive()",
+      "file_type": "code",
+      "source_file": "src/components/sidebar.tsx",
+      "source_location": "L44"
+    },
+    {
+      "id": "card",
+      "label": "card.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "card_card",
+      "label": "Card()",
+      "file_type": "code",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "card_cardbody",
+      "label": "CardBody()",
+      "file_type": "code",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L26"
+    },
+    {
+      "id": "progress_bar",
+      "label": "progress-bar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/progress-bar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "progress_bar_progressbar",
+      "label": "ProgressBar()",
+      "file_type": "code",
+      "source_file": "src/components/ui/progress-bar.tsx",
+      "source_location": "L23"
+    },
+    {
+      "id": "badge",
+      "label": "badge.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/badge.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "badge_badge",
+      "label": "Badge()",
+      "file_type": "code",
+      "source_file": "src/components/ui/badge.tsx",
+      "source_location": "L27"
+    },
+    {
+      "id": "badge_disciplinabadge",
+      "label": "DisciplinaBadge()",
+      "file_type": "code",
+      "source_file": "src/components/ui/badge.tsx",
+      "source_location": "L37"
+    },
+    {
+      "id": "badge_aprovadobadge",
+      "label": "AprovadoBadge()",
+      "file_type": "code",
+      "source_file": "src/components/ui/badge.tsx",
+      "source_location": "L42"
+    },
+    {
+      "id": "button",
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "stat_card",
+      "label": "stat-card.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/stat-card.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "stat_card_statcard",
+      "label": "StatCard()",
+      "file_type": "code",
+      "source_file": "src/components/ui/stat-card.tsx",
+      "source_location": "L18"
+    },
+    {
+      "id": "db",
+      "label": "db.ts",
+      "file_type": "code",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "db_createprismaclient",
+      "label": "createPrismaClient()",
+      "file_type": "code",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "auth",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "prisma_config",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma.config.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "prisma_config",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma.config.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "next_env_d",
+      "target": "routes_d_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "next-env.d.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "next_config",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "seed",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma/seed.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "seed",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma/seed.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "seed",
+      "target": "adapter_neon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma/seed.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "seed",
+      "target": "bcryptjs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma/seed.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "seed",
+      "target": "seed_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma/seed.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "proxy",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/proxy.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "proxy",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/proxy.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "browser",
+      "target": "prismanamespacebrowser",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/browser.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "client",
+      "target": "node_process",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/client.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "client",
+      "target": "node_path",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/client.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "client",
+      "target": "node_url",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/client.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "client",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/client.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "client",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/client.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "client",
+      "target": "class",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/client.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "client",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/client.ts",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "commoninputtypes",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/commonInputTypes.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "commoninputtypes",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/commonInputTypes.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "commoninputtypes",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/commonInputTypes.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "class",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/internal/class.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "class",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/internal/class.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "class",
+      "target": "class_decodebase64aswasm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/internal/class.ts",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "class",
+      "target": "class_getprismaclientclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/internal/class.ts",
+      "source_location": "L322",
+      "weight": 1.0
+    },
+    {
+      "source": "prismanamespace",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/internal/prismaNamespace.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "prismanamespace",
+      "target": "models",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/internal/prismaNamespace.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "prismanamespace",
+      "target": "class",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/internal/prismaNamespace.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "prismanamespacebrowser",
+      "target": "index_browser",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/internal/prismaNamespaceBrowser.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "account",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Account.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "account",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Account.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "account",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Account.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "meta",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Meta.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "meta",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Meta.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "meta",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Meta.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "userbadge",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/UserBadge.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "userbadge",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/UserBadge.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "userbadge",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/UserBadge.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "nota",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Nota.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "nota",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Nota.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "nota",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Nota.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "prova",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Prova.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "prova",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Prova.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "prova",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Prova.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "teste",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Teste.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "teste",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Teste.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "teste",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Teste.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "badge",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Badge.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "badge",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Badge.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "badge",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Badge.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "session",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Session.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "session",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Session.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "session",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Session.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "progresso",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Progresso.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "progresso",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Progresso.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "progresso",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Progresso.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "aula",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Aula.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "aula",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Aula.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "aula",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Aula.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "questao",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Questao.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "questao",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Questao.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "questao",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/Questao.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "user",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/User.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "user",
+      "target": "enums",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/User.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "user",
+      "target": "prismanamespace",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generated/prisma/models/User.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "next_auth_d",
+      "target": "next_auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types/next-auth.d.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "globals_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/register/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/register/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/register/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "bcryptjs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "next_auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_handlelogin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_handleregister",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_handlesignout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/auth.ts",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "gerar",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "gerar",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "gerar",
+      "target": "openai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "gerar",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "gerar",
+      "target": "gerar_getclient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "gerar",
+      "target": "gerar_gerarquestoes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "gerar",
+      "target": "gerar_salvarquestoesgeradas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "gerar_gerarquestoes",
+      "target": "gerar_getclient",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/actions/gerar.ts",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/analise/route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/auth/[...nextauth]/route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "route_atualizarstreak",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "route_atualizarmetas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "route_verificarbadges",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "route_atualizarstreak",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "route_atualizarmetas",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "route_verificarbadges",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/testes/route.ts",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/provas/[id]/route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/provas/[id]/route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/provas/[id]/route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/provas/[id]/route.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "route_geraruma",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/gerar/route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "route",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/gerar/route.ts",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "sidebar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "layout_dashboardlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/layout.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "progress_bar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "badge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "date_fns",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "locale",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/page.tsx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "cache",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "progress_bar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_atualizarperfil",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/perfil/page.tsx",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/revisar/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/revisar/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/revisar/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/revisar/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "cache",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "badge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_iniciartesterapido",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/testes/page.tsx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "analise_ia",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/analise-ia.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "analise_ia",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/analise-ia.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "analise_ia",
+      "target": "analise_ia_analisar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/analise-ia.tsx",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "progress_bar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "notas_chart",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "analise_ia",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_getprogresscolor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/page.tsx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "notas_chart",
+      "target": "recharts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/progresso/notas-chart.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "badge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_conceito",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_formattempo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_handleresposta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_handlesubmit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/provas/[id]/page.tsx",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/buscar/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/buscar/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/buscar/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/buscar/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/buscar/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/notas/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/notas/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/notas/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "badge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/notas/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/notas/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_getperformance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/notas/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "layout",
+      "target": "layout_gerarlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/gerar/layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/gerar/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "gerar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/gerar/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/gerar/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_handlegerar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/gerar/page.tsx",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "progress_bar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "badge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "cache",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "badge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "progress_bar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "react_markdown",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "remark_gfm",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_marcarprogresso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_handleconcluir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_handleiniciar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "page_getyoutubeid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "page_handleconcluir",
+      "target": "page_marcarprogresso",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "page_handleiniciar",
+      "target": "page_marcarprogresso",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(dashboard)/aulas/[id]/page.tsx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/login/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/login/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "page",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/login/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "sidebar",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sidebar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "sidebar",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sidebar.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "sidebar",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sidebar.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "sidebar",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sidebar.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "sidebar",
+      "target": "sidebar_isactive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sidebar.tsx",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "card",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "card",
+      "target": "card_card",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "card",
+      "target": "card_cardbody",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "progress_bar",
+      "target": "progress_bar_progressbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/progress-bar.tsx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "badge",
+      "target": "badge_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/badge.tsx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "badge",
+      "target": "badge_disciplinabadge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/badge.tsx",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "badge",
+      "target": "badge_aprovadobadge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/badge.tsx",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "button",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "stat_card",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/stat-card.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "stat_card",
+      "target": "stat_card_statcard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/stat-card.tsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "db",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "db",
+      "target": "adapter_neon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "db",
+      "target": "db_createprismaclient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "next_auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "credentials",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "google",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "bcryptjs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

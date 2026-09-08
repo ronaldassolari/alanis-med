@@ -1,0 +1,376 @@
+{
+  "communities": {
+    "0": [
+      "agents_agents",
+      "aulascontent_psychiatrycontent",
+      "aulasidpage_auladetailpage",
+      "aulaspage_aulaspage",
+      "badge_badge",
+      "claude_claude",
+      "concept_apigerar",
+      "concept_approvalscoring",
+      "concept_aprovadoscoring",
+      "concept_aulamodel",
+      "concept_autoprovisioning",
+      "concept_disciplinabadge",
+      "concept_disciplinas",
+      "concept_markdownrender",
+      "concept_maxduration",
+      "concept_navconfiguration",
+      "concept_nextauth",
+      "concept_nextneon",
+      "concept_notamodel",
+      "concept_prismaclient",
+      "concept_progressomodel",
+      "concept_questaogerada",
+      "concept_serveraction",
+      "gerarlayout_gerarlayout",
+      "gerarpage_gerarpage",
+      "libauth_auth",
+      "libdb_db",
+      "loginpage_loginpage",
+      "notaspage_notaspage",
+      "progressbar_progressbar",
+      "readme_readme",
+      "sidebar_sidebar"
+    ],
+    "1": [
+      "adapter_neon",
+      "auth",
+      "auth_handlelogin",
+      "auth_handleregister",
+      "auth_handlesignout",
+      "db",
+      "db_createprismaclient",
+      "gerar",
+      "gerar_gerarquestoes",
+      "gerar_getclient",
+      "gerar_salvarquestoesgeradas",
+      "layout",
+      "layout_dashboardlayout",
+      "layout_gerarlayout",
+      "layout_rootlayout",
+      "proxy",
+      "route",
+      "route_atualizarmetas",
+      "route_atualizarstreak",
+      "route_geraruma",
+      "route_get",
+      "route_post",
+      "route_verificarbadges",
+      "seed",
+      "sidebar",
+      "sidebar_isactive"
+    ],
+    "2": [
+      "action_auth",
+      "action_gerar",
+      "api_analise",
+      "api_gerar",
+      "api_nextauth",
+      "api_provas_id",
+      "api_testes",
+      "component_analise_ia",
+      "component_notas_chart",
+      "component_sidebar",
+      "dashboard_home",
+      "dashboard_layout",
+      "deepseek_api",
+      "lib_auth",
+      "lib_db",
+      "model_questao",
+      "model_user",
+      "page_buscar",
+      "page_perfil",
+      "page_progresso",
+      "page_prova_detail",
+      "page_provas",
+      "page_register",
+      "page_revisar",
+      "page_testes",
+      "type_nextauth_session"
+    ],
+    "3": [
+      "db_neon",
+      "entity_questao",
+      "entity_user",
+      "generated_browser",
+      "generated_client",
+      "generated_commoninputs",
+      "generated_enums",
+      "generated_models",
+      "internal_class",
+      "internal_prismans",
+      "internal_prismans_browser",
+      "model_account",
+      "model_aula",
+      "model_badge",
+      "model_meta",
+      "model_nota",
+      "model_progresso",
+      "model_prova",
+      "model_session",
+      "model_teste",
+      "model_userbadge",
+      "prismaconfig_config",
+      "proxy_auth",
+      "seed_main"
+    ],
+    "4": [
+      "account",
+      "aula",
+      "badge",
+      "badge_aprovadobadge",
+      "badge_disciplinabadge",
+      "class",
+      "class_decodebase64aswasm",
+      "class_getprismaclientclass",
+      "client",
+      "commoninputtypes",
+      "enums",
+      "meta",
+      "models",
+      "nota",
+      "prismanamespace",
+      "progresso",
+      "prova",
+      "questao",
+      "session",
+      "teste",
+      "user",
+      "userbadge"
+    ],
+    "5": [
+      "analise_ia",
+      "analise_ia_analisar",
+      "notas_chart",
+      "page",
+      "page_atualizarperfil",
+      "page_conceito",
+      "page_formattempo",
+      "page_getperformance",
+      "page_getprogresscolor",
+      "page_getyoutubeid",
+      "page_handleconcluir",
+      "page_handlegerar",
+      "page_handleiniciar",
+      "page_handleresposta",
+      "page_handlesubmit",
+      "page_iniciartesterapido",
+      "page_marcarprogresso",
+      "progress_bar",
+      "progress_bar_progressbar"
+    ],
+    "6": [
+      "card",
+      "card_card",
+      "card_cardbody",
+      "statcard_statcard"
+    ],
+    "7": [
+      "browser",
+      "prismanamespacebrowser"
+    ],
+    "8": [
+      "stat_card",
+      "stat_card_statcard"
+    ],
+    "9": [
+      "prisma_config"
+    ],
+    "10": [
+      "next_env_d"
+    ],
+    "11": [
+      "next_config"
+    ],
+    "12": [
+      "next_auth_d"
+    ],
+    "13": [
+      "button"
+    ],
+    "14": [
+      "nextconfig_config"
+    ],
+    "15": [
+      "nextenv_types"
+    ],
+    "16": [
+      "entity_verificationtoken"
+    ],
+    "17": [
+      "app_root_layout"
+    ],
+    "18": [
+      "button_button"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09,
+    "1": 0.1,
+    "2": 0.15,
+    "3": 0.26,
+    "4": 0.21,
+    "5": 0.12,
+    "6": 0.5,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0
+  },
+  "gods": [
+    {
+      "id": "seed_main",
+      "label": "main()",
+      "edges": 16
+    },
+    {
+      "id": "generated_client",
+      "label": "Prisma Server Client Entry Point",
+      "edges": 16
+    },
+    {
+      "id": "lib_auth",
+      "label": "Auth Library (src/lib/auth)",
+      "edges": 14
+    },
+    {
+      "id": "generated_browser",
+      "label": "Prisma Browser Entry Point",
+      "edges": 12
+    },
+    {
+      "id": "generated_models",
+      "label": "Prisma Models Barrel",
+      "edges": 12
+    },
+    {
+      "id": "lib_db",
+      "label": "Prisma DB Client (@/lib/db)",
+      "edges": 11
+    },
+    {
+      "id": "entity_user",
+      "label": "Entity: User",
+      "edges": 9
+    },
+    {
+      "id": "model_teste",
+      "label": "Model: Teste",
+      "edges": 7
+    },
+    {
+      "id": "model_questao",
+      "label": "Questao Prisma Model",
+      "edges": 7
+    },
+    {
+      "id": "api_testes",
+      "label": "API Route: POST /api/testes (Submit Test, Scoring, Gamification)",
+      "edges": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Neon PostgreSQL Adapter",
+      "target": "CLAUDE - Project Rules and Stack",
+      "source_files": [
+        "src/lib/db.ts",
+        "CLAUDE.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "rationale_for",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Aulas Content - Psychiatry (Ansiedade/TOC)",
+      "target": "Aula DB Model",
+      "source_files": [
+        "scripts/aulas-content.md",
+        "src/app/(dashboard)/aulas/page.tsx"
+      ],
+      "confidence": "INFERRED",
+      "relation": "shares_data_with",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Aulas Content - Psychiatry (Ansiedade/TOC)",
+      "target": "Medical Disciplines Taxonomy",
+      "source_files": [
+        "scripts/aulas-content.md",
+        "src/app/(dashboard)/gerar/page.tsx"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Prisma Config",
+      "target": "Prisma Server Client Entry Point",
+      "source_files": [
+        "prisma.config.ts",
+        "src/generated/prisma/client.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "rationale_for",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Prisma Config` unexpectedly reaches hub `Prisma Server Client Entry Point`"
+    },
+    {
+      "source": "Server Action Pattern",
+      "target": "CLAUDE - Project Rules and Stack",
+      "source_files": [
+        "src/app/(dashboard)/aulas/[id]/page.tsx",
+        "CLAUDE.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "rationale_for",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `main()` connect `Community 3` to `Community 1`?",
+      "why": "High betweenness centrality (0.360) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Badge()` connect `Community 0` to `Community 4`?",
+      "why": "High betweenness centrality (0.271) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Auth Library (src/lib/auth)` connect `Community 2` to `Community 3`?",
+      "why": "High betweenness centrality (0.233) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `Prisma Server Client Entry Point` (e.g. with `Prisma Config` and `Auth Proxy Middleware`) actually correct?",
+      "why": "`Prisma Server Client Entry Point` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Next.js Config`, `Next.js Environment Types`, `Prisma Namespace (browser)` to the rest of the system?",
+      "why": "19 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
